@@ -36,6 +36,7 @@
   overflow-x: hidden;
   white-space: nowrap;
   animation: bannermove 10s linear infinite;
+  animation-delay: 100ms;
 }
 
 .animation img {
