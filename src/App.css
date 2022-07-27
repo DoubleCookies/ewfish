@@ -1,38 +1,66 @@
-.App {
+.app {
+  display: flex;
+  flex-direction: column;
+  min-width: 1000px;
+  min-height: 100vh;
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  background-color: #ffdb91;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.description {
+  margin-top: 10px;
+
+  font-size: calc(12px + 1vmin);
+  text-align: justify;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 1000px;
+
+  margin: auto;
+
+  line-height: 1.5;
 }
 
-.App-link {
-  color: #61dafb;
+.main-text {
+  margin-top: 10px;
+
+  font-size: calc(10px + 1vmin);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-block {
+  margin-top: auto;
+  border-top: 2px solid #f5e5bc;
+  padding-bottom: 12px;
+  padding-top: 12px;
+
+  color: #504a4a;
+  font-family: 'Balsamiq Sans', sans-serif;
+  font-size: 14px;
+}
+
+.gh-logo {
+  fill: #6d6c6c;
+  transition: 0.3s;
+}
+
+.gh-logo:hover {
+  fill: #322f2f;
+  transition: 0.3s;
+  transform: scale(1.2);
 }
