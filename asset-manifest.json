@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ewfish/static/css/main.2b91f896.css",
-    "main.js": "/ewfish/static/js/main.d7a5a069.js",
+    "main.css": "/ewfish/static/css/main.8a48766c.css",
+    "main.js": "/ewfish/static/js/main.e97ca697.js",
     "static/js/787.672dc6b2.chunk.js": "/ewfish/static/js/787.672dc6b2.chunk.js",
     "static/media/ew3.png": "/ewfish/static/media/ew3.1694d8f6aaa755419643.png",
     "static/media/ew1-1.png": "/ewfish/static/media/ew1-1.7840ef693053eabb705e.png",
     "static/media/ew1-2.png": "/ewfish/static/media/ew1-2.e406d7cd9d1aecfb22f7.png",
     "static/media/ew2.jpg": "/ewfish/static/media/ew2.f798c5955cbbc407db3f.jpg",
     "index.html": "/ewfish/index.html",
-    "main.2b91f896.css.map": "/ewfish/static/css/main.2b91f896.css.map",
-    "main.d7a5a069.js.map": "/ewfish/static/js/main.d7a5a069.js.map",
+    "main.8a48766c.css.map": "/ewfish/static/css/main.8a48766c.css.map",
+    "main.e97ca697.js.map": "/ewfish/static/js/main.e97ca697.js.map",
     "787.672dc6b2.chunk.js.map": "/ewfish/static/js/787.672dc6b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b91f896.css",
-    "static/js/main.d7a5a069.js"
+    "static/css/main.8a48766c.css",
+    "static/js/main.e97ca697.js"
   ]
 }
