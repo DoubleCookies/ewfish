@@ -1,0 +1,50 @@
+.img1 {
+    display: flex;
+    flex: 30%;
+
+    margin: 50px 20px 80px -85px;
+    transform: rotateZ(345deg);
+    width: fit-content;
+}
+
+.img1-left {
+    height: auto;
+    width: 400px;
+    min-width: 80px;
+}
+
+.img2-left {
+    height: auto;
+    width: 150px;
+    min-width: 80px;
+
+    align-self: center;
+}
+
+.col1 {
+    display: flex;
+
+    flex: 67%;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 750px) {
+    .about-row {
+        flex-direction: column;
+    }
+
+    .col1, .img1 {
+        width: 100%;
+    }
+}
+
+.about-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-basis: auto;
+}

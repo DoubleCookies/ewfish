@@ -1,11 +1,21 @@
+import gang from "../../images/GANG.png";
+import './About.css';
+
 function About() {
   return (
     <div>
-      <h1>About</h1>
-      <p>Our team was formed in October 2020 by EWKD and Lifish (hmmm). Although initially the name was just a
-        placeholder (there were attempts to come up with a more creative name) it stuck around (though our russian name
-        is now ФУРЫБА).
-      </p>
+      <div className="about-row">
+        <div className="img1">
+          <img src={gang} alt="gang" className="img1-left" />
+        </div>
+        <div className="col1">
+          <h1>About</h1>
+          <p style={{fontSize: '1.5rem'}}>Our team was formed in October 2020 by EWKD and Lifish (hmmm). Although initially the name was just a
+            placeholder (there were attempts to come up with a more creative name) it stuck around (though our russian name
+            is now ФУРЫБА).
+          </p>
+        </div>
+      </div>
       <p>Initially we participated exclusively in local russian tourneys (we didn't do that good to be honest). All in all
         2020 was a pretty rough year for the team (didn't play play often, didn't get any solid results, EWKD joined
         another team). Nonetheless we were improving as a team. And then came time for The Cup Of Tea (currently the last
