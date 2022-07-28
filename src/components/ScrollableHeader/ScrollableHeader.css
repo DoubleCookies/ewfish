@@ -31,7 +31,7 @@
     left: 0;
     overflow-x: hidden;
     white-space: nowrap;
-    animation: pictures 10s linear infinite;
+    animation: pictures 30s linear infinite;
     animation-delay: 100ms;
 }
 

@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import GithubIcon from "./GithubIcon";
 import ScrollableHeader from "./components/ScrollableHeader/ScrollableHeader";
+import About from "./components/About/About";
 
 function App() {
   return (
     <div className="app">
+      <ScrollableHeader />
       <main>
-        <ScrollableHeader />
         <div className="main-content">
-          Ewfish. Other cool things are coming soon!
+          <About />
         </div>
-
       </main>
       <footer className="footer-block">
         <div>
