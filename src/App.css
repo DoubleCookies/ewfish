@@ -6,54 +6,6 @@
   text-align: center;
 }
 
-/*.app-header {*/
-/*  display: flex;*/
-/*  align-items: flex-start;*/
-/*  justify-content: center;*/
-
-/*  padding-top: 16px;*/
-/*  padding-bottom: 16px;*/
-
-/*  background-color: #ffdb91;*/
-/*  color: black;*/
-/*}*/
-
-.scrollable-header {
-  overflow-x: hidden;
-  height: 200px;
-}
-
-.animation {
-  position: relative;
-  overflow: hidden;
-  height: 200px;
-}
-
-.animation-elements {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  white-space: nowrap;
-  animation: bannermove 10s linear infinite;
-  animation-delay: 100ms;
-}
-
-.animation img {
-  width: auto;
-  height: 200px;
-  margin: 0 0.5em
-}
-
-@keyframes bannermove {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(-33.33333%, 0);
-  }
-}
-
 .description {
   margin-top: 10px;
 
