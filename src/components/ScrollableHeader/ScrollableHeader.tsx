@@ -1,8 +1,8 @@
-import ew0 from "../../images/ewfish/ew1-1.png";
-import ew1 from "../../images/ewfish/ew1-2.png";
-import ew2 from "../../images/ewfish/ew2.jpg";
-import ew3 from "../../images/ewfish/ew3.png";
-import ewfishLogo from '../../images/ewfish/ew3-text-logo-2-2.png';
+import ew0 from "../../images/scrollable-header/urmrrr1.png";
+import ew1 from "../../images/scrollable-header/furyba_original.png";
+import ew2 from "../../images/scrollable-header/urmrrr2.png";
+import ew3 from "../../images/scrollable-header/urmrrr3.jpg";
+import ewfishLogo from '../../images/scrollable-header/ewfish_text_logo.png';
 import './ScrollableHeader.css';
 import React from "react";
 
@@ -11,7 +11,7 @@ function ScrollableHeader() {
   return (
     <div className="scrollable-header">
       <div className="ewfish-logo">
-        <img src={ewfishLogo} alt="ewfishLogo" className="ewfish-logo-img" />
+        <img src={ewfishLogo} alt="Ewfish Logo" className="ewfish-logo-img" />
       </div>
       <div className="animation">
         <div className="animation-elements">
