@@ -11,6 +11,11 @@
     margin-top: 40px;
 }
 
+.ewfish-logo-img {
+    height: 200px;
+    width: auto;
+}
+
 @media only screen and (max-width: 450px) {
     .ewfish-logo-img {
         height: auto;

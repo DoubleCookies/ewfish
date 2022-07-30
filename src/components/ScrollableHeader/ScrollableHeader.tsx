@@ -1,8 +1,8 @@
-import ew0 from "../../images/scrollable-header/urmrrr1.png";
-import ew1 from "../../images/scrollable-header/furyba_original.png";
-import ew2 from "../../images/scrollable-header/urmrrr2.png";
-import ew3 from "../../images/scrollable-header/urmrrr3.jpg";
-import ewfishLogo from '../../images/scrollable-header/ewfish_text_logo.png';
+import ew0 from "../../images/ScrollableHeader/urmrrr1.png";
+import ew1 from "../../images/ScrollableHeader/furyba_original.png";
+import ew2 from "../../images/ScrollableHeader/urmrrr2.png";
+import ew3 from "../../images/ScrollableHeader/urmrrr3.jpg";
+import ewfishLogo from '../../images/ScrollableHeader/ewfish text logo.webp';
 import './ScrollableHeader.css';
 import React from "react";
 
