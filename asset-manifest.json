@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ewfish/static/css/main.412dc15b.css",
-    "main.js": "/ewfish/static/js/main.fb1063db.js",
+    "main.css": "/ewfish/static/css/main.227e5e41.css",
+    "main.js": "/ewfish/static/js/main.37ac9a8c.js",
     "static/js/787.672dc6b2.chunk.js": "/ewfish/static/js/787.672dc6b2.chunk.js",
     "static/media/GANG.png": "/ewfish/static/media/GANG.b82d4a61617e1830b37c.png",
     "static/media/furyba_original.png": "/ewfish/static/media/furyba_original.5b26f5df96a1415e8e76.png",
+    "static/media/ewfish text logo.webp": "/ewfish/static/media/ewfish text logo.24a45e2cd5853867496e.webp",
     "static/media/urmrrr1.png": "/ewfish/static/media/urmrrr1.7840ef693053eabb705e.png",
     "static/media/urmrrr2.png": "/ewfish/static/media/urmrrr2.e406d7cd9d1aecfb22f7.png",
     "static/media/ewfish blush.png": "/ewfish/static/media/ewfish blush.7e0f9a57fa8535800e34.png",
-    "static/media/ewfish_text_logo.png": "/ewfish/static/media/ewfish_text_logo.1743f87403c277dc901a.png",
     "static/media/urmrrr3.jpg": "/ewfish/static/media/urmrrr3.f798c5955cbbc407db3f.jpg",
     "index.html": "/ewfish/index.html",
-    "main.412dc15b.css.map": "/ewfish/static/css/main.412dc15b.css.map",
-    "main.fb1063db.js.map": "/ewfish/static/js/main.fb1063db.js.map",
+    "main.227e5e41.css.map": "/ewfish/static/css/main.227e5e41.css.map",
+    "main.37ac9a8c.js.map": "/ewfish/static/js/main.37ac9a8c.js.map",
     "787.672dc6b2.chunk.js.map": "/ewfish/static/js/787.672dc6b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.412dc15b.css",
-    "static/js/main.fb1063db.js"
+    "static/css/main.227e5e41.css",
+    "static/js/main.37ac9a8c.js"
   ]
 }
