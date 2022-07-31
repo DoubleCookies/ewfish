@@ -28,41 +28,44 @@
 
 .img1 {
     display: flex;
-    flex: 30%;
 
-    margin: 50px 20px 80px -85px;
+
+    margin: 50px 20px 40px -85px;
     transform: rotateZ(345deg);
-    width: fit-content;
+    width: 450px;
 }
 
 .img1-left {
     height: auto;
-    width: 400px;
+    width: 450px;
     min-width: 80px;
+    margin-top: 10px;
 }
 
 .col1 {
     display: flex;
 
-    flex: 60%;
+    width: calc(100% - 450px);
     flex-direction: column;
+    padding: 10px;
 }
 
-.col2 {
-    display: flex;
 
-    flex: 10%;
-}
+/*.img2-left {*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    right: -25px;*/
 
-.img2-left {
-    position: absolute;
-    top: 10px;
-    right: 0;
+/*    height: auto;*/
+/*    width: calc(10vw);*/
+/*    min-width: 130px;*/
+/*}*/
+/*@media only screen and (max-width: 850px) {*/
+/*    .img2-left {*/
+/*        right: -30px;*/
+/*    }*/
+/*}*/
 
-    height: auto;
-    width: 150px;
-    min-width: 80px;
-}
 
 @media only screen and (max-width: 750px) {
     .about-row {
@@ -73,7 +76,7 @@
         width: 100%;
     }
 
-    .col2 {
-        display: none;
-    }
+    /*.img2-left {*/
+    /*    top: 50px;*/
+    /*}*/
 }

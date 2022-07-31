@@ -1,5 +1,4 @@
-import gang from "../../images/GANG.png";
-import blush from "../../images/ewfish blush.png";
+import skipper from "../../images/TeamScreenshots/Skipper 1.jpg";
 import './About.css';
 
 function About() {
@@ -7,13 +6,13 @@ function About() {
     <div>
       <div className="about-row">
         <div className="img1">
-          <img src={gang} alt="gang" className="img1-left" />
+          <img src={skipper} alt="Ewfish on Skipper Pavilion" className="img1-left" />
         </div>
         <div className="col1">
           <h1 className="about-header">About</h1>
           <i className="about-subHeader">How our team was formed, what did we do in the beginning and other interesting stuff!</i>
         </div>
-        <img src={blush} alt="blush" className="img2-left" />
+        {/*<img src={blush} alt="blush" className="img2-left" />*/}
       </div>
       <div>
         <p className="about-text">Our team was formed in October 2020 by EWKD and Lifish (hmmm). Although initially the name was just a
