@@ -81,7 +81,7 @@
 
 .i4r {
     height: 300px;
-    left: -50px;
+    left: -4%;
     top: 0;
     transform: rotateZ(30deg);
 }
@@ -147,6 +147,18 @@
 
     .col1, .img1, .col-text, .col-img {
         width: 95%;
+    }
+
+    .about-text {
+        font-size: 1.1rem;
+    }
+
+    .about-subHeader {
+        font-size: 1.4rem;
+    }
+
+    .about-header {
+        font-size: 1.8rem;
     }
 
     /*.img2-left {*/
