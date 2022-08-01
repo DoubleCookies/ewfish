@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/ewfish/static/css/main.227e5e41.css",
-    "main.js": "/ewfish/static/js/main.37ac9a8c.js",
+    "main.css": "/ewfish/static/css/main.5d7fe539.css",
+    "main.js": "/ewfish/static/js/main.2335c282.js",
     "static/js/787.672dc6b2.chunk.js": "/ewfish/static/js/787.672dc6b2.chunk.js",
-    "static/media/GANG.png": "/ewfish/static/media/GANG.b82d4a61617e1830b37c.png",
     "static/media/furyba_original.png": "/ewfish/static/media/furyba_original.5b26f5df96a1415e8e76.png",
+    "static/media/Skipper 2.jpg": "/ewfish/static/media/Skipper 2.cb25146a99885fdacc8e.jpg",
+    "static/media/Kelp 2.jpg": "/ewfish/static/media/Kelp 2.7afc317002e7fae5a02d.jpg",
+    "static/media/Manta 1.jpg": "/ewfish/static/media/Manta 1.1d813895a70986a39d49.jpg",
+    "static/media/Skipper 1.jpg": "/ewfish/static/media/Skipper 1.f220b7de13f2b0ad38cc.jpg",
+    "static/media/GANG.jpg": "/ewfish/static/media/GANG.cd9bf20b39ec2f28c09f.jpg",
     "static/media/ewfish text logo.webp": "/ewfish/static/media/ewfish text logo.24a45e2cd5853867496e.webp",
     "static/media/urmrrr1.png": "/ewfish/static/media/urmrrr1.7840ef693053eabb705e.png",
     "static/media/urmrrr2.png": "/ewfish/static/media/urmrrr2.e406d7cd9d1aecfb22f7.png",
-    "static/media/ewfish blush.png": "/ewfish/static/media/ewfish blush.7e0f9a57fa8535800e34.png",
+    "static/media/pin.png": "/ewfish/static/media/pin.c5c6d28fa79f10a6b0d3.png",
     "static/media/urmrrr3.jpg": "/ewfish/static/media/urmrrr3.f798c5955cbbc407db3f.jpg",
     "index.html": "/ewfish/index.html",
-    "main.227e5e41.css.map": "/ewfish/static/css/main.227e5e41.css.map",
-    "main.37ac9a8c.js.map": "/ewfish/static/js/main.37ac9a8c.js.map",
+    "main.5d7fe539.css.map": "/ewfish/static/css/main.5d7fe539.css.map",
+    "main.2335c282.js.map": "/ewfish/static/js/main.2335c282.js.map",
     "787.672dc6b2.chunk.js.map": "/ewfish/static/js/787.672dc6b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.227e5e41.css",
-    "static/js/main.37ac9a8c.js"
+    "static/css/main.5d7fe539.css",
+    "static/js/main.2335c282.js"
   ]
 }
