@@ -6,8 +6,6 @@
     justify-content: center;
     align-items: center;
 
-    /*flex-basis: auto;*/
-
     position: relative;
 }
 
@@ -32,13 +30,60 @@
     margin: 50px 20px 40px -85px;
     transform: rotateZ(345deg);
     width: 450px;
+
+    position: relative;
 }
 
 .img1-left {
     height: auto;
-    width: 450px;
+
     min-width: 80px;
+    max-width: 100%;
     margin-top: 10px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.pin-img {
+    position: absolute;
+    width: 24px;
+    height: auto;
+    left: 200px;
+}
+
+.i1r, .i2r, .i3r, .i4r {
+    position: relative;
+}
+
+.i1r {
+    height: 400px;
+}
+
+.i1r .img1-left {
+    position: absolute;
+    right: 0;
+}
+
+.i2r {
+    margin: 0;
+    transform: rotateZ(350deg);
+    height: 0;
+    top: -50px;
+    right: -180px;
+    z-index: 3;
+}
+
+.i3r {
+    height: 400px;
+    right: -100px;
+    top: 40px;
+    transform: rotateZ(5deg);
+}
+
+.i4r {
+    height: 300px;
+    left: -50px;
+    top: 0;
+    transform: rotateZ(30deg);
 }
 
 .col1 {
@@ -57,13 +102,16 @@
     justify-content: center;
     align-items: flex-start;
     position: relative;
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+    overflow: hidden;
 }
 
 .col-text {
     display: flex;
 
-    width: calc(100% - 500px);
+    width: 50%;
     flex-direction: column;
     padding: 10px;
 }
@@ -71,7 +119,7 @@
 .col-img {
     display: flex;
 
-    width: 420px;
+    width: calc(50% - 50px);
     flex-direction: column;
     padding: 10px;
 }

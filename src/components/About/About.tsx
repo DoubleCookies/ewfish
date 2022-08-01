@@ -1,6 +1,9 @@
 import skipper from "../../images/TeamScreenshots/Skipper 1.jpg";
+import skipper2 from "../../images/TeamScreenshots/Skipper 2.jpg";
+import kelp2 from "../../images/TeamScreenshots/Kelp 2.jpg";
 import gang from "../../images/TeamScreenshots/GANG.jpg";
 import manta1 from "../../images/TeamScreenshots/Manta 1.jpg";
+import pin from "../../images/pin.png";
 import './About.css';
 
 function About() {
@@ -8,7 +11,8 @@ function About() {
     <div>
       <div className="about-row">
         <div className="img1">
-          <img src={skipper} alt="Ewfish on Skipper Pavilion" className="img1-left" />
+          <img src={skipper} alt="Ewfish on Skipper Pavilion" className="img1-left" style={{width: 450}} />
+          <img src={pin} alt="Pin" className="pin-img" />
         </div>
         <div className="col1">
           <h1 className="about-header">About</h1>
@@ -38,9 +42,18 @@ function About() {
             tournaments.</p>
         </div>
         <div className="col-img">
-          <img src={skipper} alt="Ewfish on Skipper Pavilion" className="img1-left" />
-          <img src={gang} alt="Ewfish GANG meme" className="img1-left" />
-          <img src={manta1} alt="Ewfish on Manta Maria 1" className="img1-left" />
+          <div className="i1r">
+            <img src={manta1} alt="Ewfish on Manta Maria 1" className="img1-left" style={{width: 650}} />
+          </div>
+          <div className="i2r">
+            <img src={kelp2} alt="Ewfish on Kelp Dome 2" className="img1-left" style={{width: 400}} />
+          </div>
+          <div className="i3r">
+            <img src={skipper2} alt="Ewfish on Skipper Pavilion" className="img1-left" style={{width: 600}} />
+          </div>
+          <div className="i4r">
+            <img src={gang} alt="Ewfish GANG meme" className="img1-left" style={{width: 400}} />
+          </div>
         </div>
       </div>
 
