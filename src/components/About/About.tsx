@@ -43,20 +43,19 @@ function About() {
         </div>
         <div className="col-img">
           <div className="i1r">
-            <img src={manta1} alt="Ewfish on Manta Maria 1" className="img1-left" style={{width: 650}} />
+            <img src={manta1} alt="Ewfish on Manta Maria 1" className="img1-left" style={{width: 600}} />
           </div>
           <div className="i2r">
-            <img src={kelp2} alt="Ewfish on Kelp Dome 2" className="img1-left" style={{width: 400}} />
+            <img src={kelp2} alt="Ewfish on Kelp Dome 2" className="img1-left" />
           </div>
           <div className="i3r">
-            <img src={skipper2} alt="Ewfish on Skipper Pavilion" className="img1-left" style={{width: 600}} />
+            <img src={skipper2} alt="Ewfish on Skipper Pavilion" className="img1-left" style={{width: 550}} />
           </div>
           <div className="i4r">
             <img src={gang} alt="Ewfish GANG meme" className="img1-left" style={{width: 400}} />
           </div>
         </div>
       </div>
-
     </div>
   );
 }
