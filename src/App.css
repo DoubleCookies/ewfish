@@ -20,9 +20,6 @@
   max-width: 100%;
   background: #f7effa;
 
-  margin-left: auto;
-  margin-right: auto;
-
   line-height: 1.5;
 }
 
@@ -32,9 +29,19 @@
   font-size: calc(10px + 1vmin);
 }
 
+.section-subHeader {
+  font-size: 1.8rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.section-header {
+  font-size: 2.5rem;
+  font-family: 'Rubik', sans-serif;
+}
+
 .footer-block {
   margin-top: auto;
-  border-top: 2px solid #f5e5bc;
+  border-top: 2px solid #BA5AEE;
   padding-bottom: 12px;
   padding-top: 12px;
 

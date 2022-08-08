@@ -10,17 +10,17 @@ function About() {
   return (
     <div>
       <div className="about-row">
-        <div className="img1">
-          <img src={skipper} alt="Ewfish on Skipper Pavilion" className="img1-left" style={{width: 450}} />
+        <div className="main-image">
+          <img src={skipper} alt="Ewfish on Skipper Pavilion" className="about-img" style={{width: 450}} />
           <img src={pin} alt="Pin" className="pin-img" />
         </div>
-        <div className="col1">
-          <h1 className="about-header">About</h1>
-          <i className="about-subHeader">How our team was formed, what did we do in the beginning and other interesting stuff!</i>
+        <div className="header-column">
+          <h1 className="section-header">About</h1>
+          <i className="section-subHeader">How our team was formed, what did we do in the beginning and other interesting stuff!</i>
         </div>
         {/*<img src={blush} alt="blush" className="img2-left" />*/}
       </div>
-      <div className="flex-row2">
+      <div className="about-row2">
         <div className="col-text">
           <p className="about-text">Our team was formed in October 2020 by EWKD and Lifish (hmmm). Although initially the name was just a
             placeholder (there were attempts to come up with a more creative name) it stuck around (though our russian name
@@ -43,16 +43,16 @@ function About() {
         </div>
         <div className="col-img">
           <div className="i1r">
-            <img src={manta1} alt="Ewfish on Manta Maria 1" className="img1-left" style={{width: 600}} />
+            <img src={manta1} alt="Ewfish on Manta Maria 1" className="about-img" style={{width: 600}} />
           </div>
           <div className="i2r">
-            <img src={kelp2} alt="Ewfish on Kelp Dome 2" className="img1-left" />
+            <img src={kelp2} alt="Ewfish on Kelp Dome 2" className="about-img" />
           </div>
           <div className="i3r">
-            <img src={skipper2} alt="Ewfish on Skipper Pavilion" className="img1-left" style={{width: 550}} />
+            <img src={skipper2} alt="Ewfish on Skipper Pavilion" className="about-img" style={{width: 550}} />
           </div>
           <div className="i4r">
-            <img src={gang} alt="Ewfish GANG meme" className="img1-left" style={{width: 400}} />
+            <img src={gang} alt="Ewfish GANG meme" className="about-img" style={{width: 400}} />
           </div>
         </div>
       </div>

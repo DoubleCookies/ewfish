@@ -9,22 +9,22 @@
     position: relative;
 }
 
+.header-column {
+    display: flex;
+
+    width: calc(100% - 450px);
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
 .about-text {
     font-size: 1.4rem;
     font-family: 'Rubik', sans-serif;
 }
 
-.about-subHeader {
-    font-size: 1.8rem;
-    font-family: 'Rubik', sans-serif;
-}
-
-.about-header {
-    font-size: 2.5rem;
-    font-family: 'Rubik', sans-serif;
-}
-
-.img1 {
+.main-image {
     display: flex;
 
     margin: 50px 20px 40px -85px;
@@ -34,7 +34,7 @@
     position: relative;
 }
 
-.img1-left {
+.about-img {
     height: auto;
 
     min-width: 80px;
@@ -50,55 +50,7 @@
     left: 200px;
 }
 
-.i1r, .i2r, .i3r, .i4r {
-    position: relative;
-}
-
-.i1r {
-    aspect-ratio: 17 / 10;
-    width: fit-content;
-}
-
-.i2r {
-    width: fit-content;
-    aspect-ratio: 17 / 10;
-    transform: rotateZ(350deg);
-    top: -7vh;
-    right: -22vw;
-    z-index: 3;
-}
-
-.i2r img {
-    width: 400px;
-}
-
-.i3r {
-    aspect-ratio: 17 / 10;
-    width: fit-content;
-    right: -100px;
-    top: -50px;
-    transform: rotateZ(5deg);
-    z-index: 4;
-}
-
-.i4r {
-    aspect-ratio: 17 / 10;
-    width: fit-content;
-    top: -10vh;
-    margin-bottom: 5vh;
-    left: 5%;
-    transform: rotateZ(30deg);
-}
-
-.col1 {
-    display: flex;
-
-    width: calc(100% - 450px);
-    flex-direction: column;
-    padding: 10px;
-}
-
-.flex-row2 {
+.about-row2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -111,6 +63,40 @@
 
     overflow: hidden;
 }
+
+.i1r, .i2r, .i3r, .i4r {
+    position: relative;
+    aspect-ratio: 17 / 10;
+    width: fit-content;
+}
+
+
+.i2r {
+    transform: rotateZ(350deg);
+    top: -7vh;
+    right: -22vw;
+    z-index: 3;
+}
+
+.i2r img {
+    width: 400px;
+}
+
+.i3r {
+    right: -100px;
+    top: -50px;
+    transform: rotateZ(5deg);
+    z-index: 4;
+}
+
+.i4r {
+    top: -10vh;
+    margin-bottom: 5vh;
+    left: 5%;
+    transform: rotateZ(30deg);
+}
+
+
 
 .col-text {
     display: flex;
@@ -151,7 +137,7 @@
         flex-direction: column;
     }
 
-    .col1, .img1, .col-text, .col-img {
+    .header-column, .main-image, .col-text, .col-img {
         width: 95%;
     }
 
@@ -159,11 +145,11 @@
         font-size: 1.1rem;
     }
 
-    .about-subHeader {
+    .section-subHeader {
         font-size: 1.4rem;
     }
 
-    .about-header {
+    .section-header {
         font-size: 1.8rem;
     }
 

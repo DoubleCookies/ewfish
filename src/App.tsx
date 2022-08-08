@@ -3,6 +3,8 @@ import './App.css';
 import GithubIcon from "./GithubIcon";
 import ScrollableHeader from "./components/ScrollableHeader/ScrollableHeader";
 import About from "./components/About/About";
+import Results from "./components/Results/Results";
+import SectionsDivider from "./components/SectionsDivider/SectionsDivider";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <main>
         <div className="main-content">
           <About />
+          <SectionsDivider title="Results" />
+          <Results />
         </div>
       </main>
       <footer className="footer-block">
