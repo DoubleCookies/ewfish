@@ -1,0 +1,14 @@
+.results-table table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.results-table table th.rc-table-cell  {
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.results-table table td.rc-table-cell  {
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+}
