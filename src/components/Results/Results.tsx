@@ -36,7 +36,7 @@ function Results() {
       title: 'Place',
       dataIndex: 'place',
       key: 'place',
-      width: 100,
+      width: 200,
       render (place: string, item: TableRecord) {
         if (item.placeItalic) {
           return <i>{place}</i>
@@ -247,11 +247,59 @@ function Results() {
     },
     {
       name: 'Minnow Cup #14: Clam Blitz Edition',
-      date: '11.07.2022',
+      date: '11.06.2022',
       type: 'Global',
       place: '4th place in group -> last place in top cut',
       link: 'https://battlefy.com/mulloway-institute-of-turfing/minnow-cup-14-clam-blitz-edition/628a5df7d3f0f52fc103c63b/info?infoTab=details',
-      info: 'Group stage was great for us but unfortunately we lost in Top Cut R1 - and it was Single Elimination.'
+      info: 'Group stage was great for us but unfortunately we lost in Top Cut R1 — and it was Single Elimination.'
+    },
+    {
+      name: 'Low Ink June 2022',
+      date: '18.06.2022',
+      type: 'Global',
+      place: '27th place in group -> 9th place in gamma bracket',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-june-2022/628ba468ab4cf43f09d24943/info?infoTab=details',
+      info: ''
+    },
+    {
+      name: 'Little Squid League 21',
+      date: '25.06.2022',
+      type: 'Global',
+      place: '1th place in group -> 5th place in Top Cut',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-21/6297ef84beaa0d33b34d3e17/info?infoTab=details',
+      info: 'Finally — we won R1 in Top Cut. *The curse is broken.*'
+    },
+    {
+      name: 'From The Splatalittle Up',
+      date: '09.07.2022',
+      type: 'Global',
+      place: '6th place in group stage -> ',
+      link: 'https://battlefy.com/splatalittle-tournaments/from-the-splatalittle-up/62b9a4324ae5ae569aac9baa/info?infoTab=details',
+      info: ''
+    },
+    {
+      name: 'Little Squid League 22',
+      date: '16.07.2022',
+      type: 'Global',
+      place: '1th place in group -> 5th place in Top Cut',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-22/62be2e76e636b374a9863975/info?infoTab=details',
+      info: 'Same result as last time'
+    },
+    {
+      name: 'Fight Club Week 3',
+      date: '22.07.2022',
+      type: 'Global',
+      place: '3rd place',
+      link: 'https://battlefy.com/splat-fight-club/fight-club-tournament-week-3/62cb10af7205422c7848f234/info?infoTab=details',
+      info: 'Small, fast and comfy tournament with only 8 teams. Format is a bit confusing but nice!'
+    },
+    {
+      name: 'SuperJump 2',
+      date: '23.07.2022',
+      type: 'Global',
+      place: '81th place',
+      link: 'https://www.start.gg/tournament/superjump-2/details',
+      info: 'Last big tournament of Splatoon 2 — and we were here! Hope SuperJump will return in Splatoon 3!'
     },
   ];
 
