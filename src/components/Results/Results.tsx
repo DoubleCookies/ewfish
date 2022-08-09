@@ -1,12 +1,12 @@
 import Table from "rc-table";
 import './Results.css';
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 interface TableRecord {
   name: string,
   date: string,
   type?: 'Local' | 'Global',
   place: string,
-  placeItalic?: boolean,
   link: string,
   info?: string,
 }
@@ -37,12 +37,8 @@ function Results() {
       dataIndex: 'place',
       key: 'place',
       width: 200,
-      render (place: string, item: TableRecord) {
-        if (item.placeItalic) {
-          return <i>{place}</i>
-        } else {
-          return <span>{place}</span>
-        }
+      render (place: string) {
+        return <ReactMarkdown>{place}</ReactMarkdown>
       },
     },
     {
@@ -67,10 +63,9 @@ function Results() {
       name: 'Splatoon URC #1',
       date: '22.11.2020',
       type: 'Local',
-      place: 'Probably last',
+      place: '*Probably last*',
       link: 'https://brackethq.com/b/bfcj/',
       info: 'Our first try in tournaments — kinda painful',
-      placeItalic: true,
     },
     {
       name: 'Splatoon URC #2',
@@ -101,16 +96,15 @@ function Results() {
       name: 'Triton Cup 9',
       date: '02.07.2021',
       type: 'Global',
-      place: 'Probably last',
+      place: '*Probably last*',
       link: 'https://challonge.com/ru/TriCup9',
-      info: 'Playing against pro teams was a bit painful.',
-      placeItalic: true
+      info: '*Playing against pro teams was a bit painful.*',
     },
     {
       name: 'Little Squid League 13',
       date: '10.07.2021',
       type: 'Global',
-      place: '4th place in group -> 1th place in Emerald Bracket!',
+      place: '4th place in group -> **1th place in Emerald Bracket!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-13/60c99644e6119309d80baf66/info?infoTab=details',
       info: 'Our first try in LSL — and with success!'
     },
@@ -134,7 +128,7 @@ function Results() {
       name: 'Little Squid League 15',
       date: '18.09.2021',
       type: 'Global',
-      place: '3rd place in group -> 2nd place in Silver bracket!',
+      place: '3rd place in group -> **2nd place in Silver bracket!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-15/6121df700f2a734f30e83a83/info?infoTab=details',
       info: ''
     },
@@ -151,10 +145,9 @@ function Results() {
       name: 'INKTAIL #1',
       date: '07.10.2021',
       type: 'Global',
-      place: 'Last',
+      place: '*Last*',
       link: 'https://clubcashalot.challonge.com/ru/inktail1',
-      info: 'Oof',
-      placeItalic: true
+      info: '*Oof*',
     },
     {
       name: 'Low Ink October 2021',
@@ -176,7 +169,7 @@ function Results() {
       name: 'URC x LoRule',
       date: '07.11.2021',
       type: 'Local',
-      place: '3rd place',
+      place: '**3rd place**',
       link: 'https://brackethq.com/b/1yhv/',
       info: 'Another 3-on-3 tournament. We lost only to really strong team with one of the best country players!'
     },
@@ -208,7 +201,7 @@ function Results() {
       name: 'Little Squid League 19',
       date: '27.02.2022',
       type: 'Global',
-      place: '1th place in group -> last in top bracket',
+      place: '**1th place in group** -> last in top bracket',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-19/61f8c16b376dea214be01074/info?infoTab=details',
       info: 'Going forward bit by bit!'
     },
@@ -224,7 +217,7 @@ function Results() {
       name: 'Splatalittle #3',
       date: '30.04.2022',
       type: 'Global',
-      place: '3rd place in Beta Bracket',
+      place: '**3rd place in Beta Bracket**',
       link: 'https://battlefy.com/splatalittle-tournaments/splatalittle-3/62558155872f5805d5f48f56/info?infoTab=details',
       info: 'First try here was pretty good!'
     },
@@ -240,7 +233,7 @@ function Results() {
       name: 'Little Squid League 20',
       date: '28.05.2022',
       type: 'Global',
-      place: '19th place in group -> 1st place in Silver bracket!',
+      place: '19th place in group -> **1st place in Silver bracket!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-20/623b9a3915accf7571ebf562/info?infoTab=details',
       info: 'First day was a bit rough but on the second day we played really good and won everyone in our way! Also it\'s ' +
         'first time we got money prize (80$).'
@@ -249,7 +242,7 @@ function Results() {
       name: 'Minnow Cup #14: Clam Blitz Edition',
       date: '11.06.2022',
       type: 'Global',
-      place: '4th place in group -> last place in top cut',
+      place: '**4th place in group** -> last place in top cut',
       link: 'https://battlefy.com/mulloway-institute-of-turfing/minnow-cup-14-clam-blitz-edition/628a5df7d3f0f52fc103c63b/info?infoTab=details',
       info: 'Group stage was great for us but unfortunately we lost in Top Cut R1 — and it was Single Elimination.'
     },
@@ -265,7 +258,7 @@ function Results() {
       name: 'Little Squid League 21',
       date: '25.06.2022',
       type: 'Global',
-      place: '1th place in group -> 5th place in Top Cut',
+      place: '**1th place in group** -> 5th place in Top Cut',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-21/6297ef84beaa0d33b34d3e17/info?infoTab=details',
       info: 'Finally — we won R1 in Top Cut. *The curse is broken.*'
     },
@@ -273,23 +266,23 @@ function Results() {
       name: 'From The Splatalittle Up',
       date: '09.07.2022',
       type: 'Global',
-      place: '6th place in group stage -> ',
+      place: '6th place in group stage -> 9th place in top cut.',
       link: 'https://battlefy.com/splatalittle-tournaments/from-the-splatalittle-up/62b9a4324ae5ae569aac9baa/info?infoTab=details',
-      info: ''
+      info: 'Group stage went better as expected — but other teams were stronger than us.'
     },
     {
       name: 'Little Squid League 22',
       date: '16.07.2022',
       type: 'Global',
-      place: '1th place in group -> 5th place in Top Cut',
+      place: '**1th place in group** -> 5th place in Top Cut',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-22/62be2e76e636b374a9863975/info?infoTab=details',
-      info: 'Same result as last time'
+      info: 'Same result as last time.'
     },
     {
       name: 'Fight Club Week 3',
       date: '22.07.2022',
       type: 'Global',
-      place: '3rd place',
+      place: '**3rd place**',
       link: 'https://battlefy.com/splat-fight-club/fight-club-tournament-week-3/62cb10af7205422c7848f234/info?infoTab=details',
       info: 'Small, fast and comfy tournament with only 8 teams. Format is a bit confusing but nice!'
     },
