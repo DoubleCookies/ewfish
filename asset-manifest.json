@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/ewfish/static/css/main.e8960433.css",
-    "main.js": "/ewfish/static/js/main.5cc773b2.js",
+    "main.css": "/ewfish/static/css/main.8a6df1f8.css",
+    "main.js": "/ewfish/static/js/main.4a77a4b8.js",
     "static/js/787.672dc6b2.chunk.js": "/ewfish/static/js/787.672dc6b2.chunk.js",
     "static/media/furyba_original.png": "/ewfish/static/media/furyba_original.5b26f5df96a1415e8e76.png",
     "static/media/Skipper 2.jpg": "/ewfish/static/media/Skipper 2.cb25146a99885fdacc8e.jpg",
     "static/media/Kelp 2.jpg": "/ewfish/static/media/Kelp 2.7afc317002e7fae5a02d.jpg",
     "static/media/Manta 1.jpg": "/ewfish/static/media/Manta 1.1d813895a70986a39d49.jpg",
+    "static/media/Blackbelly.jpg": "/ewfish/static/media/Blackbelly.e792052a4dcb60604a01.jpg",
     "static/media/Skipper 1.jpg": "/ewfish/static/media/Skipper 1.f220b7de13f2b0ad38cc.jpg",
     "static/media/GANG.jpg": "/ewfish/static/media/GANG.cd9bf20b39ec2f28c09f.jpg",
     "static/media/ewfish text logo.webp": "/ewfish/static/media/ewfish text logo.24a45e2cd5853867496e.webp",
@@ -15,12 +16,12 @@
     "static/media/pin.png": "/ewfish/static/media/pin.c5c6d28fa79f10a6b0d3.png",
     "static/media/urmrrr3.jpg": "/ewfish/static/media/urmrrr3.f798c5955cbbc407db3f.jpg",
     "index.html": "/ewfish/index.html",
-    "main.e8960433.css.map": "/ewfish/static/css/main.e8960433.css.map",
-    "main.5cc773b2.js.map": "/ewfish/static/js/main.5cc773b2.js.map",
+    "main.8a6df1f8.css.map": "/ewfish/static/css/main.8a6df1f8.css.map",
+    "main.4a77a4b8.js.map": "/ewfish/static/js/main.4a77a4b8.js.map",
     "787.672dc6b2.chunk.js.map": "/ewfish/static/js/787.672dc6b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8960433.css",
-    "static/js/main.5cc773b2.js"
+    "static/css/main.8a6df1f8.css",
+    "static/js/main.4a77a4b8.js"
   ]
 }
