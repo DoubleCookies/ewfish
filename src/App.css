@@ -1,3 +1,28 @@
+:root {
+  --link-color: #ffbf85;
+  --text-color: white;
+}
+
+.anim-bg-block {
+  background-repeat: repeat;
+  animation: bgMove 60s linear infinite;
+
+  color: var(--text-color);
+}
+
+.anim-bg-block a {
+  color: var(--link-color);
+}
+
+@keyframes bgMove {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -754px 0;
+  }
+}
+
 .app {
   display: flex;
   flex-direction: column;

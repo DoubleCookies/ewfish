@@ -1,6 +1,7 @@
 import Table from "rc-table";
 import './Results.css';
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import bg from "../../images/Backgrounds/bg2.jpg";
 
 interface TableRecord {
   name: string,
@@ -297,7 +298,7 @@ function Results() {
   ];
 
   return (
-    <div className="results-table" style={{width: '100%'}} >
+    <div className="anim-bg-block" style={{width: '100%', backgroundImage: `url(${bg})`}} >
       <Table
         className="results-table"
         columns={columns}

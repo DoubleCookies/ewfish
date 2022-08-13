@@ -11,7 +11,7 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 function About() {
   return (
-    <div className="about-block" style={{ backgroundImage: `url(${bg})` }}>
+    <div className="anim-bg-block" style={{ backgroundImage: `url(${bg})` }}>
       <div className="about-row">
         <div className="main-image">
           <img src={skipper} alt="Ewfish on Skipper Pavilion" className="about-img" style={{ width: 450 }}/>
