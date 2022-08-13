@@ -4,6 +4,12 @@
   "private": true,
   "homepage": "https://doublecookies.github.io/ewfish",
   "dependencies": {
+    "@fortawesome/fontawesome-common-types": "^6.1.2",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
