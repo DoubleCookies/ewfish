@@ -28,7 +28,7 @@ function About() {
         <div className="col-text">
           <span className="section-subHeader">2020</span>
           <ReactMarkdown className="about-text">
-            Our team was formed in October 2020 by **EW**KD and Li**fish**. Although initially the name was just a
+            Our team was formed in October 2020 by *EW*KD and Li*fish*. Although initially the name was just a
             placeholder it stuck around. Initially we participated exclusively in local russian tourneys
             (we didn't do that good to be honest). All in all
             2020 was a pretty rough year for the team (we didn't play play often, didn't get any solid results, EWKD

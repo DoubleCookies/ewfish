@@ -10,5 +10,5 @@
 .section-divider {
     border: 0;
     height: 4px;
-    background-image: linear-gradient(90deg, transparent 0%, rgba(238, 196, 90, 0.95) 15%, rgba(238, 196, 90, 0.95) 85%, transparent 100%)
+    background-image: linear-gradient(90deg, transparent 0%, rgba(231, 162, 90, 0.95) 15%, rgba(231, 162, 90, 0.95) 85%, transparent 100%);
 }
