@@ -1,3 +1,23 @@
+.about-block {
+    background-repeat: repeat;
+    animation: bgMove 60s linear infinite;
+
+    color: white;
+}
+
+@keyframes bgMove {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -754px 0;
+    }
+}
+
+.about-block a {
+    color: #ffbf85;
+}
+
 .about-row, .about-row2 {
     display: flex;
     flex-direction: row;
@@ -40,7 +60,7 @@
     min-width: 80px;
     max-width: 100%;
     margin-top: 10px;
-    box-shadow: 2px 2px 5px #999;
+    box-shadow: 2px 2px 5px #333;
 }
 
 .pin-img {
@@ -61,7 +81,7 @@
 
 .i1r, .i2r, .i3r, .i4r, .i5r {
     position: relative;
-    aspect-ratio: 17 / 10;
+    aspect-ratio: initial;
     width: fit-content;
 }
 
