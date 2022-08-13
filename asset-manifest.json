@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ewfish/static/css/main.d896d5a4.css",
+    "main.css": "/ewfish/static/css/main.beb44ca0.css",
     "main.js": "/ewfish/static/js/main.9eb2a966.js",
     "static/js/787.672dc6b2.chunk.js": "/ewfish/static/js/787.672dc6b2.chunk.js",
     "static/media/furyba_original.png": "/ewfish/static/media/furyba_original.5b26f5df96a1415e8e76.png",
@@ -18,12 +18,12 @@
     "static/media/bg3.jpg": "/ewfish/static/media/bg3.2cdc73a3454e509d5dc8.jpg",
     "static/media/urmrrr3.jpg": "/ewfish/static/media/urmrrr3.f798c5955cbbc407db3f.jpg",
     "index.html": "/ewfish/index.html",
-    "main.d896d5a4.css.map": "/ewfish/static/css/main.d896d5a4.css.map",
+    "main.beb44ca0.css.map": "/ewfish/static/css/main.beb44ca0.css.map",
     "main.9eb2a966.js.map": "/ewfish/static/js/main.9eb2a966.js.map",
     "787.672dc6b2.chunk.js.map": "/ewfish/static/js/787.672dc6b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d896d5a4.css",
+    "static/css/main.beb44ca0.css",
     "static/js/main.9eb2a966.js"
   ]
 }
