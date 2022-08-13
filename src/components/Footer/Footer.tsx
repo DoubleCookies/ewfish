@@ -1,15 +1,17 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-
+import './Footer.css';
 
 function Footer() {
   return(
     <footer className="footer-block">
-      <div>
-        <FontAwesomeIcon icon={faGithub} size={"2x"} />
+      <div className="text-a">
+        Created by DblCookies with help of Ewfish members!
+        <a className="gh-link" href="https://github.com/DoubleCookies/ewfish" target="_blank" rel="noreferrer">Source code</a>
       </div>
-      <div>2022 <span role="img" aria-label="cookieEmoji">🍪</span></div>
+      <div className="text-b">
+        This website is not affiliated with Nintendo.
+        All product names, logos, and brands are property of their respective owners.
+      </div>
     </footer>
   )
 }
