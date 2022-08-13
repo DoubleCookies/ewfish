@@ -43,7 +43,7 @@
 .animation img {
     width: auto;
     height: 300px;
-    margin: 0 0.5em
+    margin: 0;
 }
 
 @keyframes pictures {
