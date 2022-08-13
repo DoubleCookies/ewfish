@@ -1,5 +1,14 @@
+.divider-block {
+    background: #151515;
+    color: var(--text-color);
+}
+
+.divider-block hr {
+    margin: 0;
+}
+
 .section-divider {
     border: 0;
     height: 4px;
-    background-image: linear-gradient(90deg, transparent 5%, rgba(186, 90, 238, 0.95) 15%, rgba(186, 90, 238, 0.95) 85%, transparent 95%)
+    background-image: linear-gradient(90deg, transparent 0%, rgba(238, 196, 90, 0.95) 15%, rgba(238, 196, 90, 0.95) 85%, transparent 100%)
 }
