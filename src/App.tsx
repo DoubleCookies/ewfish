@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import GithubIcon from "./GithubIcon";
 import ScrollableHeader from "./components/ScrollableHeader/ScrollableHeader";
 import About from "./components/About/About";
 import Results from "./components/Results/Results";
 import SectionsDivider from "./components/SectionsDivider/SectionsDivider";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,12 +18,7 @@ function App() {
           <Results />
         </div>
       </main>
-      <footer className="footer-block">
-        <div>
-          <GithubIcon />
-        </div>
-        <div>2022 <span role="img" aria-label="cookieEmoji">🍪</span></div>
-      </footer>
+      <Footer />
     </div>
   );
 }
