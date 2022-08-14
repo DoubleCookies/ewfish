@@ -1,0 +1,34 @@
+.links-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin: 1em;
+}
+
+.links-row {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+
+    font-size: 1.1rem;
+}
+
+.twitter-icon, .discord-icon {
+    color: #b88dbd;
+    transition: 0.3s;
+}
+
+.twitter-icon:hover, .discord-icon:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.twitter-icon:hover {
+    color: #1DA1F2;
+}
+
+.discord-icon:hover {
+    color: #5865F2;
+}
