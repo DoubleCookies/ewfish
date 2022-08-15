@@ -1,0 +1,56 @@
+.flex-all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em auto;
+
+    background-repeat: no-repeat;
+    background-position: right;
+    aspect-ratio: initial;
+
+    font-size: 1.4rem;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.player-list {
+    display: flex;
+    width: 250px;
+    height: auto;
+
+    margin-right: 1em;
+
+    justify-content: center;
+    align-items: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    aspect-ratio: initial;
+}
+
+.members-block {
+    display: flex;
+
+    width: fit-content;
+    max-width: 100%;
+    height: auto;
+
+    background-repeat: no-repeat;
+    background-position: right;
+    aspect-ratio: initial;
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 1.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
