@@ -39,10 +39,12 @@
 .player-list .activeSlide {
     color: var(--active-link-color);
     font-weight: bold;
+    cursor: auto;
 }
 
 .player-list .slide {
     color: var(--link-color);
+    cursor: pointer;
 }
 
 .members-block {
@@ -67,7 +69,7 @@
     font-size: 1.1rem;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 

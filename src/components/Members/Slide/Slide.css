@@ -1,0 +1,48 @@
+.slide-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    position: relative;
+}
+
+.info-column, .picture-column {
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.info-column {
+    width: 65%;
+    align-items: flex-start;
+    padding-left: 50px;
+    margin-right: 10px;
+}
+
+.picture-column {
+    width: 25%;
+    text-align: center;
+}
+
+.picture-column img {
+    width: 100%;
+    height: auto;
+}
+
+.info-column .name {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.info-column .title {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.info-column .sub-info {
+    font-size: 1.2rem;
+    text-align: justify;
+}

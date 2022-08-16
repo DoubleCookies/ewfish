@@ -2,6 +2,7 @@ import './Members.css'
 import bg from "../../images/Backgrounds/bg4.jpg";
 import playerBg from "../../images/playerBg2.png";
 import playerList from "../../images/playerList.png";
+import cookies from "../../images/cookies.jpg";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import type { Swiper as SwiperType } from 'swiper';
 
@@ -12,6 +13,7 @@ import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useState } from "react";
+import Slide from "./Slide/Slide";
 
 function Members() {
 
@@ -61,7 +63,7 @@ function Members() {
         <div className="members-block" style={{ backgroundImage: `url(${playerBg})`, width: 1000, height: 651 }}>
           <Swiper navigation={true}
                   pagination={pagination}
-                  modules={[Navigation, Pagination]} className="mySwiper"
+                  modules={[Navigation, Pagination]}
                   speed={500}
                   slidesPerView={1}
                   loop={true}
@@ -70,7 +72,20 @@ function Members() {
                   }}
                   onSwiper={setSwiperInstance}
           >
-            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                name={"DblCookies"}
+                title={"My name is Cookies. DblCookies."}
+                joinDate={"2020"}
+                role={"Support/Slayer"}
+                bio={"Присоединился к команде в 2020 году, когда в неё только был открыт набор. После не самого лучшего года " +
+                "была своего рода пауза, из которой решил нас немного вывести — пригласил новых участников, поучаствовали " +
+                "в Кубке Чая и стали потихоньку смотреть в сторону *глобальных* турниров. И не зря!  \n" +
+                "В бою пытаюсь держать ситуацию под контролем и направлять нас к победе. *Но и забежать в тыл врага совсем не против*."}
+                weapons={"Tri-slosher...."}
+                image={cookies}
+              />
+            </SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>
             <SwiperSlide>Slide 3</SwiperSlide>
             <SwiperSlide>Slide 4</SwiperSlide>
