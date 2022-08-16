@@ -1,11 +1,7 @@
-import ew0 from "../../images/ScrollableHeader/urmrrr1.png";
-import ew1 from "../../images/ScrollableHeader/furyba_original.png";
-import ew2 from "../../images/ScrollableHeader/urmrrr2.png";
-import ew3 from "../../images/ScrollableHeader/urmrrr3.jpg";
 import ewfishLogo from '../../images/ScrollableHeader/ewfish text logo.webp';
+import ewLong from "../../images/ScrollableHeader/ewfishslide2.png";
 import './ScrollableHeader.css';
 import React from "react";
-
 
 function ScrollableHeader() {
   return (
@@ -15,18 +11,9 @@ function ScrollableHeader() {
       </div>
       <div className="animation">
         <div className="animation-elements">
-          <img src={ew0} alt="ew0" />
-          <img src={ew1} alt="ew1" />
-          <img src={ew2} alt="ew2" />
-          <img src={ew3} alt="ew3" />
-          <img src={ew0} alt="ew0" />
-          <img src={ew1} alt="ew1" />
-          <img src={ew2} alt="ew2" />
-          <img src={ew3} alt="ew3" />
-          <img src={ew0} alt="ew0" />
-          <img src={ew1} alt="ew1" />
-          <img src={ew2} alt="ew2" />
-          <img src={ew3} alt="ew3" />
+          <img src={ewLong} alt="Ewfishes" />
+          <img src={ewLong} alt="Ewfishes" />
+          <img src={ewLong} alt="Ewfishes" />
         </div>
       </div>
     </div>
