@@ -1,33 +1,36 @@
 {
   "files": {
-    "main.css": "/ewfish/static/css/main.b3767cd9.css",
-    "main.js": "/ewfish/static/js/main.5a9b7bae.js",
+    "main.css": "/ewfish/static/css/main.0159464b.css",
+    "main.js": "/ewfish/static/js/main.a80ecfb8.js",
     "static/js/787.672dc6b2.chunk.js": "/ewfish/static/js/787.672dc6b2.chunk.js",
-    "static/media/furyba_original.png": "/ewfish/static/media/furyba_original.5b26f5df96a1415e8e76.png",
+    "static/media/dbl.webp": "/ewfish/static/media/dbl.762a588e32b84840c840.webp",
     "static/media/Skipper 2.jpg": "/ewfish/static/media/Skipper 2.cb25146a99885fdacc8e.jpg",
     "static/media/Kelp 2.jpg": "/ewfish/static/media/Kelp 2.7afc317002e7fae5a02d.jpg",
     "static/media/Manta 1.jpg": "/ewfish/static/media/Manta 1.1d813895a70986a39d49.jpg",
     "static/media/Blackbelly.jpg": "/ewfish/static/media/Blackbelly.e792052a4dcb60604a01.jpg",
+    "static/media/ewfishslide2.png": "/ewfish/static/media/ewfishslide2.a6abd921754edf6d431c.png",
     "static/media/playerBg2.png": "/ewfish/static/media/playerBg2.340187cb9b1a8f5a14be.png",
     "static/media/Skipper 1.jpg": "/ewfish/static/media/Skipper 1.f220b7de13f2b0ad38cc.jpg",
     "static/media/GANG.jpg": "/ewfish/static/media/GANG.cd9bf20b39ec2f28c09f.jpg",
     "static/media/ewfish text logo.webp": "/ewfish/static/media/ewfish text logo.24a45e2cd5853867496e.webp",
-    "static/media/urmrrr1.png": "/ewfish/static/media/urmrrr1.7840ef693053eabb705e.png",
-    "static/media/urmrrr2.png": "/ewfish/static/media/urmrrr2.e406d7cd9d1aecfb22f7.png",
     "static/media/pin.png": "/ewfish/static/media/pin.c5c6d28fa79f10a6b0d3.png",
     "static/media/playerList.png": "/ewfish/static/media/playerList.8ef07881176ff8302ca0.png",
     "static/media/bg1.jpg": "/ewfish/static/media/bg1.781f1ec1bc0133ecd034.jpg",
     "static/media/bg4.jpg": "/ewfish/static/media/bg4.d0f8874c26e02512d55d.jpg",
     "static/media/bg2.jpg": "/ewfish/static/media/bg2.7d71d3d7fa3ea05bacd4.jpg",
     "static/media/bg3.jpg": "/ewfish/static/media/bg3.2cdc73a3454e509d5dc8.jpg",
-    "static/media/urmrrr3.jpg": "/ewfish/static/media/urmrrr3.f798c5955cbbc407db3f.jpg",
+    "static/media/ksloshing.webp": "/ewfish/static/media/ksloshing.46c7817e7f1c8b57fd0b.webp",
+    "static/media/trin.webp": "/ewfish/static/media/trin.7db5ba7c0a49f822e2e8.webp",
+    "static/media/slosher.webp": "/ewfish/static/media/slosher.b449bfa77ebba62bdbda.webp",
+    "static/media/tri.webp": "/ewfish/static/media/tri.edefdb60aa7ec84fbb0a.webp",
+    "static/media/zap85.webp": "/ewfish/static/media/zap85.977c9a369d6c0acf81b0.webp",
     "index.html": "/ewfish/index.html",
-    "main.b3767cd9.css.map": "/ewfish/static/css/main.b3767cd9.css.map",
-    "main.5a9b7bae.js.map": "/ewfish/static/js/main.5a9b7bae.js.map",
+    "main.0159464b.css.map": "/ewfish/static/css/main.0159464b.css.map",
+    "main.a80ecfb8.js.map": "/ewfish/static/js/main.a80ecfb8.js.map",
     "787.672dc6b2.chunk.js.map": "/ewfish/static/js/787.672dc6b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3767cd9.css",
-    "static/js/main.5a9b7bae.js"
+    "static/css/main.0159464b.css",
+    "static/js/main.a80ecfb8.js"
   ]
 }
