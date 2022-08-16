@@ -1,5 +1,6 @@
 .results-table {
     margin-top: 20px;
+    font-family: 'Commissioner', sans-serif;
 }
 
 .results-table table {
@@ -9,10 +10,22 @@
 
 .results-table table th.rc-table-cell  {
     font-size: 1.4rem;
-    font-family: 'Rubik', sans-serif;
 }
 
 .results-table table td.rc-table-cell  {
     font-size: 1.2rem;
-    font-family: 'Rubik', sans-serif;
+}
+
+.info-text {
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 750px) {
+    .results-table table th.rc-table-cell  {
+        font-size: 1.2rem;
+    }
+
+    .results-table table td.rc-table-cell, .info-text  {
+        font-size: 1.0rem;
+    }
 }

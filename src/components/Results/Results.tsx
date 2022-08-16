@@ -56,6 +56,9 @@ function Results() {
       dataIndex: 'info',
       key: 'info',
       width: 500,
+      render (text: string) {
+        return <ReactMarkdown className={"info-text"}>{text}</ReactMarkdown>
+      },
     }
   ];
 
@@ -305,6 +308,7 @@ function Results() {
         data={data}
         rowKey={(record, i) => `row-${i}`}
         rowClassName={(record, i) => `row-${i}`}
+        scroll={{ x: 750 }}
       />
     </div>
   );
