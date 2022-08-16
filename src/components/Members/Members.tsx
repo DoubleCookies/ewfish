@@ -76,6 +76,7 @@ function Members() {
               <Slide
                 name={"DblCookies"}
                 title={"My name is Cookies. DblCookies."}
+                twitterLink={"https://twitter.com/DblCookies"}
                 joinDate={"2020"}
                 role={"Support/Slayer"}
                 bio={"Присоединился к команде в 2020 году, когда в неё только был открыт набор. После не самого лучшего года " +
