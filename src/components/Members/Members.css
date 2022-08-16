@@ -36,6 +36,16 @@
     font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 750px) {
+    .player-list {
+        font-size: 1.2rem;
+    }
+
+    .player-list-block {
+        background-position: top; /* weird, but works */
+    }
+}
+
 .player-list .activeSlide {
     color: var(--active-link-color);
     font-weight: bold;

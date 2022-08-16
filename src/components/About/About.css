@@ -120,6 +120,10 @@
         flex-direction: column;
     }
 
+    .about-row2 {
+        margin-left: 0;
+    }
+
     .header-column, .main-image, .col-text, .col-img {
         width: 95%;
     }

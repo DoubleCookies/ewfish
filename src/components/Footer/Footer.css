@@ -2,16 +2,15 @@
     margin-top: auto;
     border-top: 2px solid rgba(139, 58, 182, 0.63);
     padding-bottom: 12px;
-    padding-top: 12px;
+    padding-top: 6px;
 
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Commissioner', sans-serif;
     font-size: 18px;
-    line-height: 1.7;
 }
 
 .text-a {
     color: #d7d7d7;
-    line-height: 24px;
+    margin-bottom: 5px;
 }
 
 .gh-link {
@@ -23,4 +22,15 @@
 .text-b {
     color: #939393;
     font-size: 12px;
+}
+
+@media only screen and (max-width: 750px) {
+    .footer-block {
+        font-size: 16px;
+        padding-bottom: 6px;
+    }
+
+    .text-b {
+        font-size: 10px;
+    }
 }
