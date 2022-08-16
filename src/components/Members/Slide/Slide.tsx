@@ -5,11 +5,12 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 interface IProps {
   name: string;
+  pr?: string;
   title?: string;
   role: string;
   joinDate: string;
   bio: string;
-  weapons: string;
+  weapons: string[];
   image: string;
   twitterLink?: string;
 }
@@ -19,13 +20,15 @@ function Slide(props: IProps) {
     <div className="slide-block">
       <div className="info-column">
         <div className="name">
-          <span style={{marginRight: 20}}>{props.name}</span>
+          <span style={{marginRight: 10}}>{props.name}</span>
+          {props.pr &&
+            <span className="pr">({props.pr})</span>
+          }
           {props.twitterLink &&
-            <a href={props.twitterLink} target="_blank" rel="noreferrer">
+            <a style={{marginLeft: 10}} href={props.twitterLink} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faTwitter} size={"sm"} className="twitter-icon" />
             </a>
           }
-
         </div>
         { props.title && <div className="title">{props.title}</div>}
         <div className="sub-info"><b>Role: </b> {props.role}</div>
@@ -35,7 +38,7 @@ function Slide(props: IProps) {
         </div>
         <div className="sub-info">
           <div><b>Weapons: </b></div>
-          {props.weapons}
+          {props.weapons.map(x => <img key={x} className="weapon-img" src={x} alt={x}/>)}
         </div>
       </div>
       <div className="picture-column">

@@ -15,7 +15,7 @@
 }
 
 .info-column {
-    width: 65%;
+    width: calc(75% - 100px);
     align-items: flex-start;
     padding-left: 50px;
     margin-right: 10px;
@@ -36,6 +36,13 @@
     font-weight: bold;
 }
 
+.info-column .pr {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    font-style: italic;
+    font-weight: normal;
+}
+
 .info-column .title {
     font-size: 1.6rem;
     font-style: italic;
@@ -43,6 +50,60 @@
 }
 
 .info-column .sub-info {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: justify;
+}
+
+.weapon-img {
+    width: 64px;
+    height: auto;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+    .slide-block {
+        flex-direction: column;
+    }
+
+    .info-column {
+        width: calc(100% - 100px);
+    }
+
+    .picture-column {
+        position: absolute;
+        top: -10vh;
+        right: 20px;
+    }
+
+    .picture-column img {
+        height: 200px;
+        width: auto;
+    }
+
+    .info-column .name {
+        font-size: 1.5rem;
+    }
+
+    .info-column .pr {
+        font-size: 0.9rem;
+    }
+
+    .info-column .title {
+        font-size: 1.2rem;
+    }
+
+    .info-column .sub-info {
+        font-size: 0.9rem;
+    }
+
+    .weapon-img {
+        width: 32px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .picture-column {
+        display: none;
+    }
 }
