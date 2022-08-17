@@ -23,6 +23,18 @@ import trin from "../../images/weapons/trin.webp";
 import ksloshing from "../../images/weapons/ksloshing.webp";
 import slosher from "../../images/weapons/slosher.webp";
 import zap85 from "../../images/weapons/zap85.webp";
+import foilflingza from "../../images/weapons/foilflingza.webp";
+import kensadyn from "../../images/weapons/kensadyn.webp";
+import luna from "../../images/weapons/luna.webp";
+import splashneo from "../../images/weapons/splashneo.webp";
+import splatjr from "../../images/weapons/splatjr.webp";
+import kensarapid from "../../images/weapons/kensarapid.webp";
+import jet from "../../images/weapons/jet.webp";
+import chydra from "../../images/weapons/chydra.webp";
+import heavyremix from "../../images/weapons/heavyremix.webp";
+import gal96 from "../../images/weapons/gal96.webp";
+import tent3 from "../../images/weapons/tent3.webp";
+import kshot from "../../images/weapons/kshot.webp";
 
 function Members() {
 
@@ -115,6 +127,7 @@ function Members() {
                 joinDate={"2020"}
                 bio={""}
                 image={zukhr}
+                weapons={[foilflingza, kensadyn]}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -136,6 +149,7 @@ function Members() {
                 image={pitoy}
                 className={"pitoy-special"}
                 twitterLink={"https://twitter.com/Pitoy12048444"}
+                weapons={[luna, splashneo, splatjr, kensarapid]}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -151,7 +165,7 @@ function Members() {
                 "contacted by EWfish. Ever since then she started learning a lot about the game and became a part " +
                 "of the Splatoon community. In real life urmrrr is also interested in art.\n"}
                 image={urmr}
-
+                weapons={[heavyremix, chydra, jet]}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -159,7 +173,7 @@ function Members() {
                 name={"Хлебушек"}
                 pr={"He/Him"}
                 role={"Anchor/Slayer"}
-                joinDate={"2021?"}
+                joinDate={"2021"}
                 bio={""}
                 image={xleb}
               />
@@ -178,6 +192,7 @@ function Members() {
                 "movements and also an amateur game developer. " +
                 "(Also he's the creator of Yaga's Weapon Kit Generator go check it out it's really cool)\n"}
                 image={yaga}
+                weapons={[kshot, tent3, gal96]}
               />
             </SwiperSlide>
             <SwiperSlide>
