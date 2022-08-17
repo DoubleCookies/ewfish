@@ -50,6 +50,7 @@ function About() {
           <p className="about-text">
             In 2021 we participated in many tourneys and got some good placements 
             (1st place in LSL 13 Emerald Bracket, 2nd place in LSL 15 Silver Bracket, 3rd place in URC x LoRule — a local ru-tournament).
+          </p>
           <span className="section-subHeader">2022</span>
           <ReactMarkdown className="about-text">
             As we participated in more and more tournaments we got better and better results! 
