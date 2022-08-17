@@ -9,8 +9,8 @@ import { useState } from "react";
 import Slide from "./Slide/Slide";
 // If you see this - forgive me
 import bg from "../../images/Backgrounds/bg4.jpg";
-import playerBg from "../../images/playerBg2.png";
-import playerList from "../../images/playerList.png";
+import playerBg from "../../images/playerBg2.webp";
+import playerList from "../../images/playerList.webp";
 import cookies2 from "../../images/members/dbl.webp";
 import tri from "../../images/weapons/tri.webp";
 import trin from "../../images/weapons/trin.webp";

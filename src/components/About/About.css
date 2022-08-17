@@ -43,13 +43,6 @@
     box-shadow: 2px 2px 5px #333;
 }
 
-.pin-img {
-    position: absolute;
-    width: 24px;
-    height: auto;
-    left: 200px;
-}
-
 .about-row2 {
     align-items: flex-start;
 
