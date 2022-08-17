@@ -13,7 +13,7 @@ function Links() {
           </a>
           <b style={{fontSize: "1.4rem"}}>Twitter</b>
           <p>
-            Here we post our results in tournaments, some memes or just repost cool things from team members.
+            Here we post our tournament results, goofy memes and repost cool stuff made by our team members.
           </p>
         </div>
         <div className="links-row">
@@ -22,8 +22,7 @@ function Links() {
           </a>
           <b style={{fontSize: "1.4rem"}}>Discord</b>
           <p>
-            We have Discord server where we plan our participation in events, discuss strategies and having good time!
-            Feel free to join us!
+            Here we prepare for events, discuss strategies and just hang out! Feel free to stop by!
           </p>
         </div>
       </div>
