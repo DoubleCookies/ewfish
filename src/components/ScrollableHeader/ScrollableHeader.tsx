@@ -1,5 +1,5 @@
 import ewfishLogo from '../../images/ScrollableHeader/ewfish text logo.webp';
-import ewLong from "../../images/ScrollableHeader/ewfishslide2.png";
+import ewLong from "../../images/ScrollableHeader/slide.webp";
 import './ScrollableHeader.css';
 import React from "react";
 
@@ -11,9 +11,9 @@ function ScrollableHeader() {
       </div>
       <div className="animation">
         <div className="animation-elements">
-          <img src={ewLong} alt="Ewfishes" />
-          <img src={ewLong} alt="Ewfishes" />
-          <img src={ewLong} alt="Ewfishes" />
+          <img src={ewLong} alt="Ewfish icons" />
+          <img src={ewLong} alt="Ewfish icons" />
+          <img src={ewLong} alt="Ewfish icons" />
         </div>
       </div>
     </div>
