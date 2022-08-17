@@ -99,12 +99,12 @@ function Members() {
                 twitterLink={"https://twitter.com/DblCookies"}
                 joinDate={"2020"}
                 role={"Team Captain + Support/Slayer"}
-                bio={"DblCookies joined team at the very beginning, in 2020. After some pause in 2021 he took *team things* " +
-                "into his own hands — invited new people, created team server, etc.  \n" +
-                "In battle, he tries to keep the situation under control and guide team to victory. " +
-                "*But sneaking behind enemy lines is viable option.*  \n" +
-                "Also DblCookies has some programming skills — he created this website, helped a bit with Sendou.ink (some bug fixes + features) " +
-                "and in general likes coding."}
+                bio={"DblCookies joined the team at the very beginning in 2020. After a brief pause in 2021 he took *team things* " +
+                "into his own hands — invited new people, created the team server, etc.  \n" +
+                "In battle he tries to keep the situation under control and guide the team to victory. " +
+                "*But sneaking behind enemy lines is also a viable option.*  \n" +
+                "DblCookies has some programming skills — he created this website, contributed to Sendou.ink (bug fixes + features) " +
+                "and just in general likes coding."}
                 weapons={[tri, trin, ksloshing, slosher, zap85]}
                 image={cookies2}
               />
@@ -136,7 +136,7 @@ function Members() {
                 title={"Пусечка"}
                 pr={"He/Him"}
                 role={"Slayer/Support"}
-                joinDate={"2020"}
+                joinDate={"2021"}
                 bio={"My name is Pitoy. I'm 17 years old. I get home every day by 3 PM at the latest. " +
                 "I don't smoke, but I occasionally drink. I'm in bed by 2 AM, and make sure I get eight hours of sleep, " +
                 "no matter what. After having a glass of warm milk and doing about twenty minutes of stretches before going to bed, " +
