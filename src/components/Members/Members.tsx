@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { useState } from "react";
 import Slide from "./Slide/Slide";
 // If you see this - forgive me
-import bg from "../../images/Backgrounds/bg4.jpg";
+import bg from "../../images/Backgrounds/bg4.webp";
 import playerBg from "../../images/playerBg2.webp";
 import playerList from "../../images/playerList.webp";
 import cookies2 from "../../images/members/dbl.webp";

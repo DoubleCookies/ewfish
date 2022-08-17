@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons'
-import bg from "../../images/Backgrounds/bg1.jpg";
+import bg from "../../images/Backgrounds/bg1.webp";
 import './Links.css';
 
 function Links() {

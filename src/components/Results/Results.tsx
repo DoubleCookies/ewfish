@@ -1,7 +1,7 @@
 import Table from "rc-table";
 import './Results.css';
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import bg from "../../images/Backgrounds/bg2.jpg";
+import bg from "../../images/Backgrounds/bg2.webp";
 
 interface TableRecord {
   name: string,
