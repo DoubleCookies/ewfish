@@ -54,6 +54,10 @@
     text-align: justify;
 }
 
+.info-column .pitoy-special {
+    font-size: 1rem;
+}
+
 .weapon-img {
     width: 64px;
     height: auto;
@@ -96,6 +100,10 @@
         font-size: 0.9rem;
     }
 
+    .info-column .pitoy-special {
+        font-size: 0.85rem;
+    }
+
     .weapon-img {
         width: 32px;
         margin-right: 5px;
@@ -105,5 +113,9 @@
 @media only screen and (max-width: 500px) {
     .picture-column {
         display: none;
+    }
+
+    .info-column .pitoy-special {
+        font-size: 0.75rem;
     }
 }

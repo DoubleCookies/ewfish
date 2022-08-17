@@ -11,7 +11,13 @@ import Slide from "./Slide/Slide";
 import bg from "../../images/Backgrounds/bg4.webp";
 import playerBg from "../../images/playerBg2.webp";
 import playerList from "../../images/playerList.webp";
-import cookies2 from "../../images/members/dbl.webp";
+import lifish from "../../images/Members/lifish.webp";
+import pitoy from "../../images/Members/pitoy.webp";
+import urmr from "../../images/Members/urmr.webp";
+import xleb from "../../images/Members/xleb.webp";
+import yaga from "../../images/Members/yaga.webp";
+import zukhr from "../../images/Members/zukhr.webp";
+import cookies2 from "../../images/Members/dbl.webp";
 import tri from "../../images/weapons/tri.webp";
 import trin from "../../images/weapons/trin.webp";
 import ksloshing from "../../images/weapons/ksloshing.webp";
@@ -58,9 +64,7 @@ function Members() {
             <li><span className={activeSlideNumber === 6 ? 'activeSlide' : 'slide'}
                       onClick={() => sayHello(6)}>Yaga</span></li>
             <li><span className={activeSlideNumber === 7 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(7)}>MisdGhost</span></li>
-            <li><span className={activeSlideNumber === 8 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(8)}>Ouzernen</span></li>
+                      onClick={() => sayHello(7)}>Ouzernen</span></li>
           </ul>
         </div>
         <div className="members-block" style={{ backgroundImage: `url(${playerBg})`, width: 1000, height: 651 }}>
@@ -82,7 +86,7 @@ function Members() {
                 title={"My name is Cookies. DblCookies."}
                 twitterLink={"https://twitter.com/DblCookies"}
                 joinDate={"2020"}
-                role={"Support/Slayer"}
+                role={"Team Captain + Support/Slayer"}
                 bio={"DblCookies joined team at the very beginning, in 2020. After some pause in 2021 he took *team things* " +
                 "into his own hands — invited new people, created team server, etc.  \n" +
                 "In battle, he tries to keep the situation under control and guide team to victory. " +
@@ -93,14 +97,97 @@ function Members() {
                 image={cookies2}
               />
             </SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                name={"Lifish"}
+                pr={"He/him"}
+                role={"Support/Slayer"}
+                joinDate={"2020"}
+                bio={""}
+                image={lifish}/>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                name={"Zukhrazavr"}
+                title={"The best slayer flingza"}
+                pr={"He/Him"}
+                role={"Support"}
+                joinDate={"2020"}
+                bio={""}
+                image={zukhr}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                name={"Pitoy"}
+                title={"Пусечка"}
+                pr={"He/Him"}
+                role={"Slayer/Support"}
+                joinDate={"2020"}
+                bio={"My name is Pitoy. I'm 17 years old. I get home every day by 3 PM at the latest. " +
+                "I don't smoke, but I occasionally drink. I'm in bed by 2 AM, and make sure I get eight hours of sleep, " +
+                "no matter what. After having a glass of warm milk and doing about twenty minutes of stretches before going to bed, " +
+                "I usually have no problems sleeping until morning. Just like a baby, " +
+                "I wake up without any fatigue or stress in the morning. I was told there were no issues at my last check-up. " +
+                "I'm trying to explain that I'm a person who wishes to live a very quiet life. " +
+                "I take care not to trouble myself with any enemies, like winning and losing, " +
+                "that would cause me to lose sleep at night. That is how I deal with society, " +
+                "and I know that is what brings me happiness. Although, if I were to fight I wouldn't lose to anyone."}
+                image={pitoy}
+                className={"pitoy-special"}
+                twitterLink={"https://twitter.com/Pitoy12048444"}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                name={"Urmrrr"}
+                pr={"She/Her"}
+                title={"Baton text"}
+                twitterLink={"https://twitter.com/urmrrr"}
+                role={"Anchor"}
+                joinDate={"2021"}
+                bio={"Urmrr started playing Splatoon back in the summer of 2020. " +
+                "Later that January she was looking for a team to participate in a local tournament and was eventually " +
+                "contacted by EWfish. Ever since then she started learning a lot about the game and became a part " +
+                "of the Splatoon community. In real life urmrrr is also interested in art.\n"}
+                image={urmr}
+
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                name={"Хлебушек"}
+                pr={"He/Him"}
+                role={"Anchor/Slayer"}
+                joinDate={"2021?"}
+                bio={""}
+                image={xleb}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                name={"Yaga"}
+                title={"Tent is cool"}
+                pr={"He/Him"}
+                twitterLink={"https://twitter.com/a_bog_hag"}
+                role={"Support"}
+                joinDate={"2022"}
+                bio={"Yaga started playing Splatoon back in March 2021 and fell in love with the game on the spot. " +
+                "Later that summer he joined EWfish as an anchor splatling player but later went on to discover the " +
+                "wonders of tenta brella. In real life he is an artist with a passion for early 20th century art " +
+                "movements and also an amateur game developer. " +
+                "(Also he's the creator of Yaga's Weapon Kit Generator go check it out it's really cool)\n"}
+                image={yaga}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                name={"Ouzernen"}
+                role={"Anchor/Slayer"}
+                joinDate={"2022"}
+                bio={""}
+              />
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>

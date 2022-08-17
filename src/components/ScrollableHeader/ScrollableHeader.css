@@ -40,12 +40,6 @@
     animation-delay: 100ms;
 }
 
-.animation img {
-    width: auto;
-    height: 300px;
-    margin: 0;
-}
-
 @keyframes pictures {
     0% {
         transform: translate(0, 0);
