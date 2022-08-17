@@ -22,6 +22,8 @@
 }
 
 .picture-column {
+    display: flex;
+    justify-content: center;
     width: 25%;
     text-align: center;
 }
@@ -74,6 +76,8 @@
     }
 
     .picture-column {
+        display: block;
+
         position: absolute;
         top: -10vh;
         right: 20px;
