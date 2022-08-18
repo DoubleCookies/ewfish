@@ -18,23 +18,26 @@ import xleb from "../../images/Members/xleb.webp";
 import yaga from "../../images/Members/yaga.webp";
 import zukhr from "../../images/Members/zukhr.webp";
 import cookies2 from "../../images/Members/dbl.webp";
-import tri from "../../images/weapons/tri.webp";
-import trin from "../../images/weapons/trin.webp";
-import ksloshing from "../../images/weapons/ksloshing.webp";
-import slosher from "../../images/weapons/slosher.webp";
-import zap85 from "../../images/weapons/zap85.webp";
-import foilflingza from "../../images/weapons/foilflingza.webp";
-import kensadyn from "../../images/weapons/kensadyn.webp";
-import luna from "../../images/weapons/luna.webp";
-import splashneo from "../../images/weapons/splashneo.webp";
-import splatjr from "../../images/weapons/splatjr.webp";
-import kensarapid from "../../images/weapons/kensarapid.webp";
-import jet from "../../images/weapons/jet.webp";
-import chydra from "../../images/weapons/chydra.webp";
-import heavyremix from "../../images/weapons/heavyremix.webp";
-import gal96 from "../../images/weapons/gal96.webp";
-import tent3 from "../../images/weapons/tent3.webp";
-import kshot from "../../images/weapons/kshot.webp";
+import tri from "../../images/Weapons/tri.webp";
+import trin from "../../images/Weapons/trin.webp";
+import ksloshing from "../../images/Weapons/ksloshing.webp";
+import slosher from "../../images/Weapons/slosher.webp";
+import zap85 from "../../images/Weapons/zap85.webp";
+import foilflingza from "../../images/Weapons/foilflingza.webp";
+import kensadyn from "../../images/Weapons/kensadyn.webp";
+import luna from "../../images/Weapons/luna.webp";
+import splashneo from "../../images/Weapons/splashneo.webp";
+import splatjr from "../../images/Weapons/splatjr.webp";
+import kensarapid from "../../images/Weapons/kensarapid.webp";
+import jet from "../../images/Weapons/jet.webp";
+import chydra from "../../images/Weapons/chydra.webp";
+import heavyremix from "../../images/Weapons/heavyremix.webp";
+import gal96 from "../../images/Weapons/gal96.webp";
+import tent3 from "../../images/Weapons/tent3.webp";
+import kshot from "../../images/Weapons/kshot.webp";
+import clapple from "../../images/Weapons/clapple.webp";
+import kbrush from "../../images/Weapons/kbrush.webp";
+import roller from "../../images/Weapons/roller.webp";
 
 function Members() {
 
@@ -198,9 +201,16 @@ function Members() {
             <SwiperSlide>
               <Slide
                 name={"Ouzernen"}
+                title={"Chaos embracer"}
+                pr={"Any"}
                 role={"Anchor/Slayer"}
                 joinDate={"2022"}
-                bio={""}
+                bio={"Ouzernen joined ewfish for only one tournament but decided to stay because of the " +
+                "“good competitive team” (In their own words). He likes to play aggressively " +
+                "in matches regardless of weapon.  \n" +
+                "Ouzernen also enjoys to draw however they have no socials except for @ouzernen in vk."}
+                vkLink={"https://vk.com/howstupid"}
+                weapons={[roller, clapple, kbrush, chydra, heavyremix]}
               />
             </SwiperSlide>
           </Swiper>

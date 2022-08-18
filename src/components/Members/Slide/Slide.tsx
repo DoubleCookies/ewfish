@@ -1,7 +1,7 @@
 import './Slide.css';
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faVk } from "@fortawesome/free-brands-svg-icons";
 
 interface IProps {
   name: string;
@@ -13,6 +13,7 @@ interface IProps {
   weapons?: string[];
   image?: string;
   twitterLink?: string;
+  vkLink?: string;
   className?: string
 }
 
@@ -28,6 +29,11 @@ function Slide(props: IProps) {
           {props.twitterLink &&
           <a style={{ marginLeft: 10 }} href={props.twitterLink} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faTwitter} size={"sm"} className="twitter-icon"/>
+          </a>
+          }
+          {props.vkLink &&
+          <a style={{ marginLeft: 10 }} href={props.vkLink} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faVk} size={"sm"} className="vk-icon"/>
           </a>
           }
         </div>
