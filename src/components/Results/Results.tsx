@@ -310,18 +310,18 @@ function Results() {
       type: 'Global',
       place: '2nd place in group -> **2nd place in Top Cut!**',
       link: 'https://www.start.gg/tournament/superjump-2/details',
-      info: 'We were REALLY close to win this LSL. Unfortunately we made too much mistakes and we lose 3:4 to [CAKE]. ' +
-        'Anyway, this is best LSL so far!',
+      info: 'We were REALLY close to winning this LSL. Unfortunately we made too many mistakes and lost 3:4 to [CAKE]. ' +
+        'Regardless this is our best LSL so far!',
       highlight: true
     },
     {
-      name: 'Last days in Inkopolis',
+      name: 'Последние дни в Инкополисе',
       date: '19.08.2022',
       type: 'Local',
       place: '**2nd place**',
       link: 'https://challonge.com/summertime_inking',
-      info: 'Small local tournament with double elimination. We only lost to the team ' +
-        'with some of the best players in the country!',
+      info: 'A small local tournament with double elimination. We managed to win every set except the one against ' +
+        'the team with some of the best players from our country!',
       highlight: true
     },
     {
@@ -331,7 +331,7 @@ function Results() {
       place: '**2nd place**',
       link: 'https://challonge.com/f3ou4aw4',
       info: 'Another local tournament — now with more teams! We finished at the same place and lost to the same team ' +
-        '(except they had even stronger line-up)',
+        '(except they had an even stronger line-up)',
       highlight: true
     },
     {
