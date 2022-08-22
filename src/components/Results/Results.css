@@ -40,6 +40,6 @@
     background: rgba(67, 119, 180, 0.38);
 }
 
-.row-5, .row-8, .row-13, .row-19, .row-21, .row-27 {
+.row-highlight {
     background: rgba(152, 69, 196, 0.38);
 }

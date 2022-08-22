@@ -10,6 +10,7 @@ interface TableRecord {
   place: string,
   link: string,
   info?: string,
+  highlight?: boolean
 }
 
 function Results() {
@@ -134,7 +135,8 @@ function Results() {
       type: 'Global',
       place: '3rd place in group -> **2nd place in Silver Bracket!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-15/6121df700f2a734f30e83a83/info?infoTab=details',
-      info: ''
+      info: '',
+      highlight: true
     },
     {
       name: 'SuperJump',
@@ -175,7 +177,8 @@ function Results() {
       type: 'Local',
       place: '**3rd place**',
       link: 'https://brackethq.com/b/1yhv/',
-      info: 'Another 3-on-3 tournament. Our only loss was against the strongest team with some of the best players from our country!'
+      info: 'Another 3-on-3 tournament. Our only loss was against the strongest team with some of the best players from our country!',
+      highlight: true
     },
     {
       name: 'Low Ink December 2021',
@@ -223,7 +226,8 @@ function Results() {
       type: 'Global',
       place: '**3rd place in Beta Bracket**',
       link: 'https://battlefy.com/splatalittle-tournaments/splatalittle-3/62558155872f5805d5f48f56/info?infoTab=details',
-      info: 'Our first time here went pretty good!'
+      info: 'Our first time here went pretty good!',
+      highlight: true
     },
     {
       name: 'Low Ink May 2022',
@@ -240,7 +244,8 @@ function Results() {
       place: '19th place in group -> **1st place in Silver bracket!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-20/623b9a3915accf7571ebf562/info?infoTab=details',
       info: 'Day 1 was a bit rough but on day 2 we played really well and won every set! ' +
-        'It\'s also our first time getting a money prize.'
+        'It\'s also our first time getting a money prize.',
+      highlight: true
     },
     {
       name: 'Minnow Cup #14: Clam Blitz Edition',
@@ -272,7 +277,7 @@ function Results() {
       type: 'Global',
       place: '6th place in group stage -> 9th place in top cut.',
       link: 'https://battlefy.com/splatalittle-tournaments/from-the-splatalittle-up/62b9a4324ae5ae569aac9baa/info?infoTab=details',
-      info: 'The group stage went better than expected, howether other teams ended up being stronger than us.'
+      info: 'The group stage went better than expected, however other teams ended up being stronger than us.'
     },
     {
       name: 'Little Squid League 22',
@@ -288,7 +293,8 @@ function Results() {
       type: 'Global',
       place: '**3rd place**',
       link: 'https://battlefy.com/splat-fight-club/fight-club-tournament-week-3/62cb10af7205422c7848f234/info?infoTab=details',
-      info: 'Fight Club was a short and sweet tournament with only 8 teams. The format was a bit confusing but it went good overall!'
+      info: 'Fight Club was a short and sweet tournament with only 8 teams. The format was a bit confusing but it went good overall!',
+      highlight: true
     },
     {
       name: 'SuperJump 2',
@@ -297,6 +303,45 @@ function Results() {
       place: '81st place',
       link: 'https://www.start.gg/tournament/superjump-2/details',
       info: 'The last major Splatoon 2 tournament in which we participated! We hope SuperJump will return for Splatoon 3!'
+    },
+    {
+      name: 'Little Squid League 23',
+      date: '13.08.2022',
+      type: 'Global',
+      place: '2nd place in group -> **2nd place in Top Cut!**',
+      link: 'https://www.start.gg/tournament/superjump-2/details',
+      info: 'We were REALLY close to win this LSL. Unfortunately we made too much mistakes and we lose 3:4 to [CAKE]. ' +
+        'Anyway, this is best LSL so far!',
+      highlight: true
+    },
+    {
+      name: 'Last days in Inkopolis',
+      date: '19.08.2022',
+      type: 'Local',
+      place: '**2nd place**',
+      link: 'https://challonge.com/summertime_inking',
+      info: 'Small local tournament with double elimination. We only lost to the team ' +
+        'with some of the best players in the country!',
+      highlight: true
+    },
+    {
+      name: 'Йохохнем на дорожку?',
+      date: '20.08.2022',
+      type: 'Local',
+      place: '**2nd place**',
+      link: 'https://challonge.com/f3ou4aw4',
+      info: 'Another local tournament — now with more teams! We finished at the same place and lost to the same team ' +
+        '(except they had even stronger line-up)',
+      highlight: true
+    },
+    {
+      name: 'Low Ink August 2022',
+      date: '20.08.2022',
+      type: 'Global',
+      place: '28th place in group',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-august-2022/62ddc6ad132b551f11f3c285/info?infoTab=details',
+      info: '*Oof. Playing two tournaments in a row is hard.*  \n' +
+        'Low Ink will return in Splatoon 3 and I hope we will play in it!'
     },
   ];
 
@@ -307,7 +352,7 @@ function Results() {
         columns={columns}
         data={data}
         rowKey={(record, i) => `row-${i}`}
-        rowClassName={(record, i) => `row-${i}`}
+        rowClassName={(record, i) => record.highlight ? `row-${i} row-highlight` : `row-${i}`}
         scroll={{ x: 750 }}
       />
     </div>
