@@ -309,7 +309,7 @@ function Results() {
       date: '13.08.2022',
       type: 'Global',
       place: '2nd place in group -> **2nd place in Top Cut!**',
-      link: 'https://www.start.gg/tournament/superjump-2/details',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-23/62d9db5a78182b34ef310cc7/info?infoTab=details',
       info: 'We were REALLY close to winning this LSL. Unfortunately we made too many mistakes and lost 3:4 to [CAKE]. ' +
         'Regardless this is our best LSL so far!',
       highlight: true
