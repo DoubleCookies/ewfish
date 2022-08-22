@@ -353,7 +353,7 @@ function Results() {
         data={data.reverse()}
         rowKey={(record, i) => `row-${i}`}
         rowClassName={(record, i) => record.highlight ? `row-${i} row-highlight` : `row-${i}`}
-        scroll={{ x: 750, y: 450 }}
+        scroll={{ x: 750 }}
       />
     </div>
   );
