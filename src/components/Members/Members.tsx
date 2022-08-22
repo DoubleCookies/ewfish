@@ -102,7 +102,7 @@ function Members() {
                 title={"My name is Cookies. DblCookies."}
                 twitterLink={"https://twitter.com/DblCookies"}
                 joinDate={"2020"}
-                role={"Team Captain + Support/Slayer"}
+                role={"Team captain + Support/Slayer"}
                 bio={"DblCookies joined the team at the very beginning in 2020. After a brief pause in 2021 he took *team things* " +
                 "into his own hands — invited new people, created the team server, etc.  \n" +
                 "In battle he tries to keep the situation under control and guide the team to victory. " +
@@ -117,7 +117,7 @@ function Members() {
               <Slide
                 name={"Lifish"}
                 pr={"He/him"}
-                role={"Support/Slayer"}
+                role={"Team founder + Support/Slayer"}
                 joinDate={"2020"}
                 bio={""}
                 image={lifish}/>

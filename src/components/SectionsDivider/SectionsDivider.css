@@ -7,8 +7,7 @@
     margin: 0;
 }
 
-.section-divider {
-    border: 0;
-    height: 4px;
-    background-image: linear-gradient(90deg, transparent 0%, rgba(231, 162, 90, 0.95) 15%, rgba(231, 162, 90, 0.95) 85%, transparent 100%);
+.section-header {
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
 }

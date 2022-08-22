@@ -14,7 +14,7 @@ function App() {
       <ScrollableHeader/>
       <main>
         <div className="main-content">
-          <SectionsDivider title="Work in progress! More cool things coming soon!"/>
+          <SectionsDivider title="About"/>
           <About/>
           <SectionsDivider title="Members"/>
           <Members/>

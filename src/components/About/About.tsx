@@ -16,13 +16,13 @@ function About() {
           <img src={skipper} alt="Ewfish on Skipper Pavilion" className="about-img" style={{ width: 450 }}/>
         </div>
         <div className="header-column">
-          <h1 className="section-header">About</h1>
           <i className="section-subHeader">How our team was created, what we did in the beginning and other trivia!</i>
         </div>
       </div>
       <div className="about-row2">
         <div className="col-text">
           <span className="section-subHeader">2020</span>
+          <hr className="section-divider" style={{width: "40%", marginTop: 0}} />
           <ReactMarkdown className="about-text">
             Our team was created in October 2020 by EWKD and Lifish. Although initially the name was just a 
             placeholder it stuck around. At first we participated exclusively in local russian tourneys (and didn’t do that hot). 
@@ -30,6 +30,7 @@ function About() {
             (we didn't play often as well as didn't get any solid results and EWKD ended up joining a different team).
           </ReactMarkdown>
           <span className="section-subHeader">2021</span>
+          <hr className="section-divider" style={{width: "40%", marginTop: 0}} />
           <p className="about-text"> 
           Nonetheless we continued to play and were improving as a team. Then came time for <a href="https://challonge.com/ru/TheCupOfTea" target="_blank" rel="noreferrer">The
               Cup Of Tea</a> — one of the last major russian tourneys.
@@ -52,6 +53,7 @@ function About() {
             (1st place in LSL 13 Emerald Bracket, 2nd place in LSL 15 Silver Bracket, 3rd place in URC x LoRule — a local ru-tournament).
           </p>
           <span className="section-subHeader">2022</span>
+          <hr className="section-divider" style={{width: "40%", marginTop: 0}} />
           <ReactMarkdown className="about-text">
             As we participated in more and more tournaments we got better and better results! 
             There were some ups and downs, but overall there were way more ups ~(˘▾˘~).
