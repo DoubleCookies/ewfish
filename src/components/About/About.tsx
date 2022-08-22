@@ -36,7 +36,7 @@ function About() {
               Cup Of Tea</a> — one of the last major russian tourneys.
           </p>
           <ReactMarkdown className="about-text">
-            This tourney was held in March 2021. It was a typical Double Elimination format but there was a twist - it was 3-on-3 instead of 4-on-4. 
+            This tourney was held in March 2021. It was a typical Double Elimination format but there was a twist — it was 3-on-3 instead of 4-on-4.
             Right before this event Ewfish finally became, well, Ewfish (and the first, the best, and the only logo was created). 
             The tournament went great — we almost got to the losers bracket finale! 
             A few days after The Cup Of Tea, Chronya (one of the strongest russian Splatoon players) suggested that we participate in LUTI 
