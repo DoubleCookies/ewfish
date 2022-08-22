@@ -350,7 +350,7 @@ function Results() {
       <Table
         className="results-table"
         columns={columns}
-        data={data}
+        data={data.reverse()}
         rowKey={(record, i) => `row-${i}`}
         rowClassName={(record, i) => record.highlight ? `row-${i} row-highlight` : `row-${i}`}
         scroll={{ x: 750 }}
