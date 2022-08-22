@@ -1,5 +1,5 @@
 .table-container {
-    height: 450px;
+    height: 80vh;
     overflow-y: scroll;
 }
 .results-table {
