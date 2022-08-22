@@ -17,6 +17,7 @@ import urmr from "../../images/Members/urmr.webp";
 import xleb from "../../images/Members/xleb.webp";
 import yaga from "../../images/Members/yaga.webp";
 import zukhr from "../../images/Members/zukhr.webp";
+import ouzer from "../../images/Members/ouzer.webp";
 import cookies2 from "../../images/Members/dbl.webp";
 import tri from "../../images/Weapons/tri.webp";
 import trin from "../../images/Weapons/trin.webp";
@@ -174,10 +175,14 @@ function Members() {
             <SwiperSlide>
               <Slide
                 name={"Хлебушек"}
+                title={"Direct hit!"}
                 pr={"He/Him"}
-                role={"Anchor/Slayer"}
+                role={"Slayer"}
                 joinDate={"2021"}
-                bio={""}
+                bio={"Хлебушек loves Nintendo games. He first tried Splatoon in 2017 but it failed to grab him. " +
+                "After a year he decided to give the game another shot and got really invested in it. " +
+                "Хлебушек joined EWfish back in 2021."}
+                weapons={[luna]}
                 image={xleb}
               />
             </SwiperSlide>
@@ -211,6 +216,7 @@ function Members() {
                 "Ouzernen also enjoys to draw however they have no socials except for @ouzernen in vk."}
                 vkLink={"https://vk.com/howstupid"}
                 weapons={[roller, clapple, kbrush, chydra, heavyremix]}
+                image={ouzer}
               />
             </SwiperSlide>
           </Swiper>
