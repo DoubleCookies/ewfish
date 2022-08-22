@@ -1,3 +1,7 @@
+.table-container {
+    height: 450px;
+    overflow-y: scroll;
+}
 .results-table {
     font-family: 'Commissioner', sans-serif;
 }

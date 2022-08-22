@@ -347,14 +347,16 @@ function Results() {
 
   return (
     <div className="anim-bg-block" style={{width: '100%', backgroundImage: `url(${bg})`}} >
-      <Table
-        className="results-table"
-        columns={columns}
-        data={data.reverse()}
-        rowKey={(record, i) => `row-${i}`}
-        rowClassName={(record, i) => record.highlight ? `row-${i} row-highlight` : `row-${i}`}
-        scroll={{ x: 750 }}
-      />
+      <div className="table-container">
+        <Table
+          className="results-table"
+          columns={columns}
+          data={data.reverse()}
+          rowKey={(record, i) => `row-${i}`}
+          rowClassName={(record, i) => record.highlight ? `row-${i} row-highlight` : `row-${i}`}
+          scroll={{ x: 750 }}
+        />
+      </div>
     </div>
   );
 }
