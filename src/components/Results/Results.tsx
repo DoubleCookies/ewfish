@@ -343,6 +343,15 @@ function Results() {
       info: '*Oof. Playing two tournaments in a row is hard.*  \n' +
         'Low Ink will return in Splatoon 3 and I hope we will play in it!'
     },
+    {
+      name: 'The Семья - турнир по Splatoon 2',
+      date: '28.08.2022',
+      type: 'Local',
+      place: '**2nd place**',
+      link: 'https://challonge.com/thefamilysp2',
+      info: 'Our last Splatoon 2 tournament — and the results are the same for us. See you in Splatoon 3!',
+      highlight: true
+    },
   ];
 
   return (
