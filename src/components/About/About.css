@@ -29,6 +29,11 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.section-smallInfo {
+    font-size: 1.1rem;
+    color: lightcyan;
+}
+
 .year-divider {
     border: 0;
     width: 40%;
@@ -139,6 +144,10 @@
 
     .section-subHeader {
         font-size: 1.4rem;
+    }
+
+    .section-smallInfo {
+        font-size: 1rem;
     }
 
     .section-header {

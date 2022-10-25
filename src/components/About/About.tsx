@@ -16,7 +16,9 @@ function About() {
           <img src={skipper} alt="Ewfish on Skipper Pavilion" className="about-img" style={{ width: 450 }}/>
         </div>
         <div className="header-column">
-          <i className="section-subHeader">How our team was created, what we did in the beginning and other trivia!</i>
+          <i className="section-subHeader">How our team was created, what we did in the beginning, what we are doing 
+            now and other trivia!</i>
+          <i className="section-smallInfo">(Info about Splatoon 3 and new cool images coming soon!)</i>
         </div>
       </div>
       <div className="about-row2">

@@ -48,7 +48,7 @@ function Members() {
     clickable: true,
   };
 
-  const sayHello = (slide: number) => {
+  const activateSlide = (slide: number) => {
     if (activeSlideNumber === slide)
       return undefined;
     if (swiperInstance !== null) {
@@ -66,21 +66,21 @@ function Members() {
         <div className="player-list-block" style={{ backgroundImage: `url(${playerList})` }}>
           <ul className="player-list">
             <li><span className={activeSlideNumber === 0 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(0)}>DblCookies</span></li>
+                      onClick={() => activateSlide(0)}>DblCookies</span></li>
             <li><span className={activeSlideNumber === 1 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(1)}>Lifish</span></li>
+                      onClick={() => activateSlide(1)}>Lifish</span></li>
             <li><span className={activeSlideNumber === 2 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(2)}>Zukhrazavr</span></li>
+                      onClick={() => activateSlide(2)}>Zukhrazavr</span></li>
             <li><span className={activeSlideNumber === 3 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(3)}>Pitoy</span></li>
+                      onClick={() => activateSlide(3)}>Pitoy</span></li>
             <li><span className={activeSlideNumber === 4 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(4)}>Urmrrr</span></li>
+                      onClick={() => activateSlide(4)}>Urmrrr</span></li>
             <li><span className={activeSlideNumber === 5 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(5)}>Хлебушек</span></li>
+                      onClick={() => activateSlide(5)}>Хлебушек</span></li>
             <li><span className={activeSlideNumber === 6 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(6)}>Yaga</span></li>
+                      onClick={() => activateSlide(6)}>Yaga</span></li>
             <li><span className={activeSlideNumber === 7 ? 'activeSlide' : 'slide'}
-                      onClick={() => sayHello(7)}>Ouzernen</span></li>
+                      onClick={() => activateSlide(7)}>Ouzernen</span></li>
           </ul>
         </div>
         <div className="members-block" style={{ backgroundImage: `url(${playerBg})`, width: 1000, height: 651 }}>

@@ -10,7 +10,7 @@ interface TableRecord {
   place: string,
   link: string,
   info?: string,
-  highlight?: boolean
+  className?: string
 }
 
 function Results() {
@@ -86,7 +86,7 @@ function Results() {
       type: 'Local',
       place: '4-5th place',
       link: 'https://challonge.com/ru/TheCupOfTea',
-      info: 'The Cup of Tea was a 3-on-3 tournament which was pretty interesting!' +
+      info: 'The Cup of Tea was a 3-on-3 tournament which was pretty interesting! ' +
         'We were really close to getting 3rd place but lost both matches to secure it.',
     },
     {
@@ -136,7 +136,7 @@ function Results() {
       place: '3rd place in group -> **2nd place in Silver Bracket!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-15/6121df700f2a734f30e83a83/info?infoTab=details',
       info: '',
-      highlight: true
+      className: 'row-highlight',
     },
     {
       name: 'SuperJump',
@@ -178,7 +178,7 @@ function Results() {
       place: '**3rd place**',
       link: 'https://brackethq.com/b/1yhv/',
       info: 'Another 3-on-3 tournament. Our only loss was against the strongest team with some of the best players from our country!',
-      highlight: true
+      className: 'row-highlight',
     },
     {
       name: 'Low Ink December 2021',
@@ -227,7 +227,7 @@ function Results() {
       place: '**3rd place in Beta Bracket**',
       link: 'https://battlefy.com/splatalittle-tournaments/splatalittle-3/62558155872f5805d5f48f56/info?infoTab=details',
       info: 'Our first time here went pretty good!',
-      highlight: true
+      className: 'row-highlight',
     },
     {
       name: 'Low Ink May 2022',
@@ -245,7 +245,7 @@ function Results() {
       link: 'https://battlefy.com/little-squid-league/little-squid-league-20/623b9a3915accf7571ebf562/info?infoTab=details',
       info: 'Day 1 was a bit rough but on day 2 we played really well and won every set! ' +
         'It\'s also our first time getting a money prize.',
-      highlight: true
+      className: 'row-highlight',
     },
     {
       name: 'Minnow Cup #14: Clam Blitz Edition',
@@ -294,7 +294,7 @@ function Results() {
       place: '**3rd place**',
       link: 'https://battlefy.com/splat-fight-club/fight-club-tournament-week-3/62cb10af7205422c7848f234/info?infoTab=details',
       info: 'Fight Club was a short and sweet tournament with only 8 teams. The format was a bit confusing but it went good overall!',
-      highlight: true
+      className: 'row-highlight',
     },
     {
       name: 'SuperJump 2',
@@ -312,7 +312,7 @@ function Results() {
       link: 'https://battlefy.com/little-squid-league/little-squid-league-23/62d9db5a78182b34ef310cc7/info?infoTab=details',
       info: 'We were REALLY close to winning this LSL. Unfortunately we made too many mistakes and lost 3:4 to [CAKE]. ' +
         'Regardless this is our best LSL so far!',
-      highlight: true
+      className: 'row-highlight',
     },
     {
       name: 'Последние дни в Инкополисе',
@@ -322,7 +322,7 @@ function Results() {
       link: 'https://challonge.com/summertime_inking',
       info: 'A small local tournament with double elimination. We managed to win every set except the one against ' +
         'the team with some of the best players from our country!',
-      highlight: true
+      className: 'row-highlight',
     },
     {
       name: 'Йохохнем на дорожку?',
@@ -332,7 +332,7 @@ function Results() {
       link: 'https://challonge.com/f3ou4aw4',
       info: 'Another local tournament — now with more teams! We finished at the same place and lost to the same team ' +
         '(except they had an even stronger line-up)',
-      highlight: true
+      className: 'row-highlight',
     },
     {
       name: 'Low Ink August 2022',
@@ -350,7 +350,36 @@ function Results() {
       place: '**2nd place**',
       link: 'https://challonge.com/thefamilysp2',
       info: 'Our last Splatoon 2 tournament — and the results are the same for us. See you in Splatoon 3!',
-      highlight: true
+      className: 'row-highlight row-divider',
+    },
+    {
+      name: 'Low Ink September 2022',
+      date: '17.09.2022',
+      type: 'Global',
+      place: '21st place in group -> 5th place in Gamma Bracket',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-september-2022/6303b07f783d3622ec0b2478/info?infoTab=details',
+      info: 'Our first Splatoon 3 tournament went pretty good! One of the most known ru-players TidabiT subbed for us in day 2 and it was great!',
+    },
+    {
+      name: 'Splatoon Sunday #2',
+      date: '15.10.2022',
+      type: 'Local',
+      place: '**1st place!**',
+      link: 'https://challonge.com/SplatoonSunday2',
+      info: 'Finally — our first win in local tournaments! Splatoon Sunday is a series of tournaments where new rules apply every time. Splatoon Sunday #2 was about randomized weapons — and ' +
+        'we won every team in our way with these rules! Maybe random helped us a bit — who knows?',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Low Ink October 2022',
+      date: '23.10.2022',
+      type: 'Global',
+      place: '16th place in group -> **2nd place in Delta Bracket**',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-october-2022/63348d5f2fa97e2bc6635c56/info?infoTab=details',
+      info: 'This Low Ink was the biggest one — **170 teams**! Getting in Day 2 was a hard task and we barely managed to do it ' +
+        'with 3-3 in Day 1 (every other team in group had at least 4-2). In Delta Bracket we had really good sets ' +
+        'with Overtime!! and other teams and lost only in grand final. That is our best Low Ink so far!',
+      className: 'row-highlight',
     },
   ];
 
@@ -362,7 +391,7 @@ function Results() {
           columns={columns}
           data={data.reverse()}
           rowKey={(record, i) => `row-${i}`}
-          rowClassName={(record, i) => record.highlight ? `row-${i} row-highlight` : `row-${i}`}
+          rowClassName={(record, i) => (record.className && record.className.length > 0) ? `row-${i} ${record.className}` : `row-${i}`}
           scroll={{ x: 750 }}
         />
       </div>

@@ -53,8 +53,12 @@
 }
 
 .player-list .slide {
+    transition: 0.2s;
     color: var(--link-color);
     cursor: pointer;
+}
+.player-list .slide:hover {
+    color: var(--hover-link-color);
 }
 
 .members-block {

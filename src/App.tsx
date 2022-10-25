@@ -20,7 +20,7 @@ function App() {
           <Members/>
           <SectionsDivider title="Results"/>
           <Results/>
-          <SectionsDivider title="Where you can find us"/>
+          <SectionsDivider title="Links"/>
           <Links/>
         </div>
       </main>

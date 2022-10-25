@@ -47,3 +47,7 @@
 .row-highlight {
     background: rgba(152, 69, 196, 0.38);
 }
+
+.row-divider {
+    box-shadow: 0 -4px 0 rgba(97, 204, 241, 0.92);
+}

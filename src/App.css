@@ -1,5 +1,6 @@
 :root {
   --link-color: #ffbf85;
+  --hover-link-color: #ff9336;
   --active-link-color: #d5a8ee;
   --text-color: white;
   --bg-color: #151515;
@@ -30,7 +31,12 @@
 }
 
 .anim-bg-block a {
+  transition: 0.2s;
   color: var(--link-color);
+}
+
+.anim-bg-block a:hover {
+  color: var(--hover-link-color);
 }
 
 @keyframes bgMove {
