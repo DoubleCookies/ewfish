@@ -381,6 +381,67 @@ function Results() {
         'with Overtime!! and other teams and lost only in grand final. That is our best Low Ink so far!',
       className: 'row-highlight',
     },
+    {
+      name: 'LSL Invitational 3',
+      date: '29.10.2022',
+      type: 'Global',
+      place: '2nd place in group -> lost in r1',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-invitational-3/6333542b627d0340fbb092d0/info?infoTab=details',
+      info: 'First part was pretty good for us but unfortunately in Single Elim we lost 2:3 due to some mistakes. Well, good lesson for us.',
+    },
+    {
+      name: 'Привет, Плюхтония!',
+      date: '29.10.2022',
+      type: 'Local',
+      place: '2nd place',
+      link: 'https://challonge.com/3yx0ygs2',
+      info: 'Another local tournament and *another second place*. We were close to bracket reset but lost 2-3 in grand final.',
+      className: 'row-highlight'
+    },
+    {
+      name: 'Minnow Cup #17 - Rainmaker Edition',
+      date: '05.11.2022',
+      type: 'Global',
+      place: '9th place',
+      link: 'https://battlefy.com/mulloway-institute-of-turfing/minnow-cup-17-rainmaker-edition/633b0e373f23a64beb614363/info?infoTab=details',
+      info: 'We were really close to top-8 - well, it\'s all about coefficients because there were ' +
+        'a lot of teams with 3-2 in the end.',
+    },
+    {
+      name: 'Little Squid League 25',
+      date: '12.11.2022',
+      type: 'Global',
+      place: '1st place in group -> **3rd place in gold bracket**',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-25/6349be080f176511550710fd/info?infoTab=details',
+      info: 'We collected every prize place except 1st. Well, I hope it will be soon!',
+      className: 'row-highlight'
+    },
+    {
+      name: 'Speed Ladder 10',
+      date: '13.11.2022',
+      type: 'Global',
+      place: '260th place (?), 5-4 in general',
+      link: 'https://www.start.gg/tournament/inkademy-speed-ladder-10/details',
+      info: 'Pretty good result. Don\'t look at place - smash gg ladder just works in a bit weird way.',
+    },
+    {
+      name: 'Low Ink November 2022',
+      date: '19.11.2022',
+      type: 'Global',
+      place: '**9th place in group** -> lost in R1 in Gamma Bracket',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-november-2022/636141f93dd21d0b2088f5ec/info?infoTab=details',
+      info: 'Best group result in LI so far and first 4-2 in group stage! Unfortunately second day wasn\'t so good, ' +
+        'but overall - good result!',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Splatoon Sunday #6',
+      date: '20.11.2022',
+      type: 'Local',
+      place: '2nd place',
+      link: 'https://challonge.com/ru/SplatoonSunday6',
+      info: '',
+    },
   ];
 
   return (
