@@ -442,6 +442,14 @@ function Results() {
       link: 'https://challonge.com/ru/SplatoonSunday6',
       info: '',
     },
+    {
+      name: 'Camp\'Ink #1',
+      date: '17.12.2022',
+      type: 'Local',
+      place: '2nd place',
+      link: 'https://battlefy.com/ewsepia-urc/campink-1/637a217a6d36746256d36839/info?infoTab=details',
+      info: 'Another Local tournament and *another second place*. Well, we are really close to win another one, right?',
+    },
   ];
 
   return (
