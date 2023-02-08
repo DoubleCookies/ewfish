@@ -65,22 +65,23 @@ function Members() {
       <div className="flex-all">
         <div className="player-list-block" style={{ backgroundImage: `url(${playerList})` }}>
           <ul className="player-list">
-            <li><span className={activeSlideNumber === 0 ? 'activeSlide' : 'slide'}
+            <li><span className={activeSlideNumber === 0 ? 'active-slide-label' : 'slide-label'}
                       onClick={() => activateSlide(0)}>DblCookies</span></li>
-            <li><span className={activeSlideNumber === 1 ? 'activeSlide' : 'slide'}
+            <li><span className={activeSlideNumber === 1 ? 'active-slide-label' : 'slide-label'}
                       onClick={() => activateSlide(1)}>Lifish</span></li>
-            <li><span className={activeSlideNumber === 2 ? 'activeSlide' : 'slide'}
+            <li><span className={activeSlideNumber === 2 ? 'active-slide-label' : 'slide-label'}
                       onClick={() => activateSlide(2)}>Zukhrazavr</span></li>
-            <li><span className={activeSlideNumber === 3 ? 'activeSlide' : 'slide'}
+            <li><span className={activeSlideNumber === 3 ? 'active-slide-label' : 'slide-label'}
                       onClick={() => activateSlide(3)}>Pitoy</span></li>
-            <li><span className={activeSlideNumber === 4 ? 'activeSlide' : 'slide'}
+            <li><span className={activeSlideNumber === 4 ? 'active-slide-label' : 'slide-label'}
                       onClick={() => activateSlide(4)}>Urmrrr</span></li>
-            <li><span className={activeSlideNumber === 5 ? 'activeSlide' : 'slide'}
+            <li><span className={activeSlideNumber === 5 ? 'active-slide-label' : 'slide-label'}
                       onClick={() => activateSlide(5)}>Хлебушек</span></li>
-            <li><span className={activeSlideNumber === 6 ? 'activeSlide' : 'slide'}
-                      onClick={() => activateSlide(6)}>Yaga</span></li>
-            <li><span className={activeSlideNumber === 7 ? 'activeSlide' : 'slide'}
-                      onClick={() => activateSlide(7)}>Ouzernen</span></li>
+            <li><span className={activeSlideNumber === 6 ? 'active-slide-label' : 'slide-label'}
+                      onClick={() => activateSlide(6)}>Ouzernen</span></li>
+            <hr className="divider" />
+            <li><span className={activeSlideNumber === 7 ? 'active-slide-label' : 'retired-slide-label'}
+                      onClick={() => activateSlide(7)}>Yaga</span></li>
           </ul>
         </div>
         <div className="members-block" style={{ backgroundImage: `url(${playerBg})`, width: 1000, height: 651 }}>
@@ -188,23 +189,6 @@ function Members() {
             </SwiperSlide>
             <SwiperSlide>
               <Slide
-                name={"Yaga"}
-                title={"Tent is cool"}
-                pr={"He/Him"}
-                twitterLink={"https://twitter.com/a_bog_hag"}
-                role={"Support"}
-                joinDate={"2022"}
-                bio={"Yaga started playing Splatoon back in March 2021 and fell in love with the game on the spot. " +
-                "Later that summer he joined EWfish as an anchor splatling player but later went on to discover the " +
-                "wonders of tenta brella. In real life he is an artist with a passion for early 20th century art " +
-                "movements and also an amateur game developer. " +
-                "(Also he's the creator of Yaga's Weapon Kit Generator go check it out it's really cool)\n"}
-                image={yaga}
-                weapons={[kshot, tent3, gal96]}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Slide
                 name={"Ouzernen"}
                 title={"Chaos embracer"}
                 pr={"Any"}
@@ -217,6 +201,23 @@ function Members() {
                 vkLink={"https://vk.com/howstupid"}
                 weapons={[roller, clapple, kbrush, chydra, heavyremix]}
                 image={ouzer}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                  name={"Yaga"}
+                  title={"Tent is cool"}
+                  pr={"He/Him"}
+                  twitterLink={"https://twitter.com/a_bog_hag"}
+                  role={"Support"}
+                  joinDate={"2022"}
+                  bio={"Yaga started playing Splatoon back in March 2021 and fell in love with the game on the spot. " +
+                      "Later that summer he joined EWfish as an anchor splatling player but later went on to discover the " +
+                      "wonders of tenta brella. In real life he is an artist with a passion for early 20th century art " +
+                      "movements and also an amateur game developer. " +
+                      "(Also he's the creator of Yaga's Weapon Kit Generator go check it out it's really cool)\n"}
+                  image={yaga}
+                  weapons={[kshot, tent3, gal96]}
               />
             </SwiperSlide>
           </Swiper>

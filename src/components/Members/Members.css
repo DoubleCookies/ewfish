@@ -14,6 +14,7 @@
 
 .player-list-block {
     display: flex;
+    flex-direction: column;
     width: 280px;
     height: auto;
 
@@ -29,6 +30,8 @@
 }
 
 .player-list {
+    margin-top: 8px;
+    margin-bottom: 8px;
     padding-right: 30px;
     text-align: left;
     list-style-type: none;
@@ -46,19 +49,33 @@
     }
 }
 
-.player-list .activeSlide {
+.player-list .active-slide-label {
     color: var(--active-link-color);
     font-weight: bold;
     cursor: auto;
 }
 
-.player-list .slide {
+.player-list .slide-label {
     transition: 0.2s;
     color: var(--link-color);
     cursor: pointer;
 }
-.player-list .slide:hover {
+
+.player-list .retired-slide-label {
+    transition: 0.2s;
+    color: var(--retired-link-color);
+    cursor: pointer;
+}
+
+.player-list .slide-label:hover {
     color: var(--hover-link-color);
+}
+
+.player-list .divider {
+    margin-bottom: 0;
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(90deg, rgba(231, 162, 90, 0.95) 0%, rgba(231, 162, 90, 0.95) 85%, transparent 100%);
 }
 
 .members-block {
