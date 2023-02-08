@@ -211,6 +211,7 @@ function Members() {
                   twitterLink={"https://twitter.com/a_bog_hag"}
                   role={"Support"}
                   joinDate={"2022"}
+                  leftDate={"February 2023"}
                   bio={"Yaga started playing Splatoon back in March 2021 and fell in love with the game on the spot. " +
                       "Later that summer he joined EWfish as an anchor splatling player but later went on to discover the " +
                       "wonders of tenta brella. In real life he is an artist with a passion for early 20th century art " +

@@ -9,6 +9,7 @@ interface IProps {
   title?: string;
   role: string;
   joinDate: string;
+  leftDate?: string;
   bio: string;
   weapons?: string[];
   image?: string;
@@ -40,6 +41,9 @@ function Slide(props: IProps) {
         {props.title && <div className="title">{props.title}</div>}
         <div className="sub-info"><b>Role: </b> {props.role}</div>
         <div className="sub-info"><b>Join: </b> {props.joinDate}</div>
+        {props.leftDate &&
+            <div className="sub-info"><b>Left: </b> {props.leftDate}</div>
+        }
         <div className={props.className ? props.className : "sub-info"}>
           <ReactMarkdown>{props.bio}</ReactMarkdown>
         </div>
