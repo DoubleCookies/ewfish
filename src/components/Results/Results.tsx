@@ -344,7 +344,7 @@ function Results() {
         'Low Ink will return in Splatoon 3 and I hope we will play in it!'
     },
     {
-      name: 'The Семья - турнир по Splatoon 2',
+      name: 'The Семья — турнир по Splatoon 2',
       date: '28.08.2022',
       type: 'Local',
       place: '**2nd place**',
@@ -399,12 +399,12 @@ function Results() {
       className: 'row-highlight'
     },
     {
-      name: 'Minnow Cup #17 - Rainmaker Edition',
+      name: 'Minnow Cup #17 — Rainmaker Edition',
       date: '05.11.2022',
       type: 'Global',
       place: '9th place',
       link: 'https://battlefy.com/mulloway-institute-of-turfing/minnow-cup-17-rainmaker-edition/633b0e373f23a64beb614363/info?infoTab=details',
-      info: 'We were really close to top-8 - well, it\'s all about coefficients because there were ' +
+      info: 'We were really close to top-8 — well, it\'s all about coefficients because there were ' +
         'a lot of teams with 3-2 in the end.',
     },
     {
@@ -422,7 +422,7 @@ function Results() {
       type: 'Global',
       place: '260th place (?), 5-4 in general',
       link: 'https://www.start.gg/tournament/inkademy-speed-ladder-10/details',
-      info: 'Pretty good result. Don\'t look at place - smash gg ladder just works in a bit weird way.',
+      info: 'Pretty good result. Don\'t look at place — smash gg ladder just works in a bit weird way.',
     },
     {
       name: 'Low Ink November 2022',
@@ -431,7 +431,7 @@ function Results() {
       place: '**9th place in group** -> lost in R1 in Gamma Bracket',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-november-2022/636141f93dd21d0b2088f5ec/info?infoTab=details',
       info: 'Best group result in LI so far and first 4-2 in group stage! Unfortunately second day wasn\'t so good, ' +
-        'but overall - good result!',
+        'but overall — good result!',
       className: 'row-highlight',
     },
     {
@@ -449,6 +449,75 @@ function Results() {
       place: '2nd place',
       link: 'https://battlefy.com/ewsepia-urc/campink-1/637a217a6d36746256d36839/info?infoTab=details',
       info: 'Another Local tournament and *another second place*. Well, we are really close to win another one, right?',
+    },
+    {
+      name: 'Ультраплюх #1',
+      date: '25.12.2022',
+      type: 'Local',
+      place: '7th place',
+      link: 'https://battlefy.com/splatsville/%D1%83%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D0%BF%D0%BB%D1%8E%D1%85-%D0%B7%D0%B8%D0%BC%D0%B0-2023-1/639f76cf16618373a3e6e82f/stage/639f7772ecfc214cd8ba6307/bracket/',
+      info: 'This is what happens when you go with an untrained comp...',
+    },
+    {
+      name: 'Little Squid League 26',
+      date: '07.01.2023',
+      type: 'Global',
+      place: '3rd place in group -> lost in R1',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-26/639a57df7d594370c3a86454/info?infoTab=details',
+      info: 'Same thing as the last time',
+    },
+    {
+      name: 'Splatoon Sunday #12',
+      date: '08.01.2023',
+      type: 'Local',
+      place: '2nd place',
+      link: 'https://challonge.com/ru/SplatoonSunday12',
+      info: 'This one was finally good. *Comeback time.*',
+    },
+    {
+      name: 'Ультраплюх #2',
+      date: '14.01.2023',
+      type: 'Local',
+      place: '4th place',
+      link: 'https://battlefy.com/splatsville/%D1%83%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D0%BF%D0%BB%D1%8E%D1%85-%D0%B7%D0%B8%D0%BC%D0%B0-2023-2/63bc73550841346a84c182f8/info?infoTab=details',
+      info: 'Better than previous one. Also we had emergency sub and this result is pretty good.',
+    },
+    {
+      name: 'Little Squid League 26',
+      date: '21.01.2023',
+      type: 'Global',
+      place: '21st place in group -> **2nd place in Epsilon Bracket!**',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-january-2023/63b1f24b2395cc75cdfa7da1/info?infoTab=details',
+      info: 'Due to coefs we almost entered day 2, but later someone dropped, so we could play in day 2 Epsilon Bracket... ' +
+          'And we almost won this one! We even managed to start Bracket Reset!',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Splatoon Sunday #15',
+      date: '29.01.2023',
+      type: 'Local',
+      place: '2nd place',
+      link: 'https://challonge.com/ru/SplatoonSunday15',
+      info: 'Salmon Run Special! Only lost to team with epic guy with all VP 999.',
+    },
+    {
+      name: 'Ультраплюх #3',
+      date: '04.02.2023',
+      type: 'Local',
+      place: '**1st place**',
+      link: 'https://battlefy.com/splatsville/%D1%83%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D0%BF%D0%BB%D1%8E%D1%85-%D0%B7%D0%B8%D0%BC%D0%B0-2023-3/63d9a61734202e66355bcd80/stage/63d9a65c7b6f052e260bac05/bracket/',
+      info: 'Finally! After a lot of tournaments we managed another first place!',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Splatoon Sunday #16',
+      date: '05.02.2023',
+      type: 'Local',
+      place: '**1st place**',
+      link: 'https://challonge.com/ru/SplatoonSunday16',
+      info: '*Two in a row!* This week was an interesting tourney theme where the further — the worse the weapon. ' +
+          'Also, this is the last tournament for yaga...',
+      className: 'row-highlight',
     },
   ];
 
