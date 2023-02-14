@@ -6,4 +6,5 @@ public
 
 .prettierrc.json
 package.json
+tsconfig.json
 README.md

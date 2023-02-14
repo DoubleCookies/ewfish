@@ -27,6 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "prettier check": "prettier --check .",
+    "prettier write": "prettier --write .",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -b gh-pages -d build",
