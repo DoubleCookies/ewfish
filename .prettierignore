@@ -1,0 +1,9 @@
+.git
+.github
+build
+node_modules
+public
+
+.prettierrc.json
+package.json
+README.md
