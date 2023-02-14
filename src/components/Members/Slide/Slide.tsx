@@ -2,6 +2,8 @@ import './Slide.css';
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faVk } from "@fortawesome/free-brands-svg-icons";
+import { weaponImages } from "../../importedImages";
+import { membersImages } from "../../importedImages";
 
 interface IProps {
   name: string;
@@ -50,12 +52,12 @@ function Slide(props: IProps) {
         {props.weapons &&
         <div className="sub-info">
             <div><b>Weapons: </b></div>
-            {props.weapons.map(x => <img key={x} className="weapon-img" src={x} alt={x}/>)}
+            {props.weapons.map(x => <img key={x} className="weapon-img" src={weaponImages.get(x)} alt={x}/>)}
         </div>
         }
       </div>
       <div className="picture-column">
-        {props.image && <img src={props.image} alt={"team member"}/>}
+        {props.image && <img src={membersImages.get(props.image)} alt={"team member"}/>}
       </div>
     </div>
   );

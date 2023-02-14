@@ -5,40 +5,11 @@ import { Navigation, Pagination } from "swiper";
 import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { useState } from "react";
+import {useState} from "react";
 import Slide from "./Slide/Slide";
-// If you see this - forgive me
 import bg from "../../images/Backgrounds/bg4.webp";
 import playerBg from "../../images/playerBg2.webp";
 import playerList from "../../images/playerList.webp";
-import lifish from "../../images/Members/lifish.webp";
-import pitoy from "../../images/Members/pitoy.webp";
-import urmr from "../../images/Members/urmr.webp";
-import xleb from "../../images/Members/xleb.webp";
-import yaga from "../../images/Members/yaga.webp";
-import zukhr from "../../images/Members/zukhr.webp";
-import ouzer from "../../images/Members/ouzer.webp";
-import cookies2 from "../../images/Members/dbl.webp";
-import tri from "../../images/Weapons/tri.webp";
-import trin from "../../images/Weapons/trin.webp";
-import ksloshing from "../../images/Weapons/ksloshing.webp";
-import slosher from "../../images/Weapons/slosher.webp";
-import zap85 from "../../images/Weapons/zap85.webp";
-import foilflingza from "../../images/Weapons/foilflingza.webp";
-import kensadyn from "../../images/Weapons/kensadyn.webp";
-import luna from "../../images/Weapons/luna.webp";
-import splashneo from "../../images/Weapons/splashneo.webp";
-import splatjr from "../../images/Weapons/splatjr.webp";
-import kensarapid from "../../images/Weapons/kensarapid.webp";
-import jet from "../../images/Weapons/jet.webp";
-import chydra from "../../images/Weapons/chydra.webp";
-import heavyremix from "../../images/Weapons/heavyremix.webp";
-import gal96 from "../../images/Weapons/gal96.webp";
-import tent3 from "../../images/Weapons/tent3.webp";
-import kshot from "../../images/Weapons/kshot.webp";
-import clapple from "../../images/Weapons/clapple.webp";
-import kbrush from "../../images/Weapons/kbrush.webp";
-import roller from "../../images/Weapons/roller.webp";
 
 function Members() {
 
@@ -110,8 +81,8 @@ function Members() {
                 "*But sneaking behind enemy lines is also a viable option.*  \n" +
                 "DblCookies has some programming skills — he created this website, contributed to Sendou.ink (bug fixes + features) " +
                 "and just in general likes coding."}
-                weapons={[tri, trin, ksloshing, slosher, zap85]}
-                image={cookies2}
+                weapons={["tri", "trin", "ksloshing", "slosher", "zap85"]}
+                image={"dbl"}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -121,7 +92,7 @@ function Members() {
                 role={"Team founder + Support/Slayer"}
                 joinDate={"2020"}
                 bio={""}
-                image={lifish}/>
+                image={"lifish"}/>
             </SwiperSlide>
             <SwiperSlide>
               <Slide
@@ -131,8 +102,8 @@ function Members() {
                 role={"Support"}
                 joinDate={"2020"}
                 bio={""}
-                image={zukhr}
-                weapons={[foilflingza, kensadyn]}
+                image={"zukhr"}
+                weapons={["foilflingza", "kensadyn"]}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -151,10 +122,10 @@ function Members() {
                 "I take care not to trouble myself with any enemies, like winning and losing, " +
                 "that would cause me to lose sleep at night. That is how I deal with society, " +
                 "and I know that is what brings me happiness. Although, if I were to fight I wouldn't lose to anyone."}
-                image={pitoy}
+                image={"pitoy"}
                 className={"pitoy-special"}
                 twitterLink={"https://twitter.com/Pitoy12048444"}
-                weapons={[luna, splashneo, splatjr, kensarapid]}
+                weapons={["luna", "splashneo", "splatjr", "kensarapid"]}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -169,8 +140,8 @@ function Members() {
                 "Later that January she was looking for a team to participate in a local tournament and was eventually " +
                 "contacted by EWfish. Ever since then she started learning a lot about the game and became a part " +
                 "of the Splatoon community. In real life urmrrr is also interested in art.\n"}
-                image={urmr}
-                weapons={[heavyremix, chydra, jet]}
+                image={"urmr"}
+                weapons={["heavyremix", "chydra", "jet"]}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -183,8 +154,8 @@ function Members() {
                 bio={"Хлебушек loves Nintendo games. He first tried Splatoon in 2017 but it failed to grab him. " +
                 "After a year he decided to give the game another shot and got really invested in it. " +
                 "Хлебушек joined EWfish back in 2021."}
-                weapons={[luna]}
-                image={xleb}
+                weapons={["luna"]}
+                image={"xleb"}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -199,8 +170,8 @@ function Members() {
                 "in matches regardless of weapon.  \n" +
                 "Ouzernen also enjoys to draw however they have no socials except for @ouzernen in vk."}
                 vkLink={"https://vk.com/howstupid"}
-                weapons={[roller, clapple, kbrush, chydra, heavyremix]}
-                image={ouzer}
+                weapons={["roller", "clapple", "kbrush", "chydra", "heavyremix"]}
+                image={"ouzer"}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -217,8 +188,8 @@ function Members() {
                       "wonders of tenta brella. In real life he is an artist with a passion for early 20th century art " +
                       "movements and also an amateur game developer. " +
                       "(Also he's the creator of Yaga's Weapon Kit Generator go check it out it's really cool)\n"}
-                  image={yaga}
-                  weapons={[kshot, tent3, gal96]}
+                  image={"yaga"}
+                  weapons={["kshot", "tent3", "gal96"]}
               />
             </SwiperSlide>
           </Swiper>
