@@ -1,50 +1,50 @@
 .scrollable-header {
-    overflow-x: hidden;
-    height: 300px;
+  overflow-x: hidden;
+  height: 300px;
 }
 
 .ewfish-logo {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    z-index: 10;
-    margin-top: 40px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 10;
+  margin-top: 40px;
 }
 
 .ewfish-logo-img {
-    height: 200px;
-    width: auto;
+  height: 200px;
+  width: auto;
 }
 
 @media only screen and (max-width: 450px) {
-    .ewfish-logo-img {
-        height: auto;
-        max-width: 90%;
-        min-width: 80px;
-    }
+  .ewfish-logo-img {
+    height: auto;
+    max-width: 90%;
+    min-width: 80px;
+  }
 }
 
 .animation {
-    position: relative;
-    overflow: hidden;
-    height: 300px;
+  position: relative;
+  overflow: hidden;
+  height: 300px;
 }
 
 .animation-elements {
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    white-space: nowrap;
-    animation: pictures 30s linear infinite;
-    animation-delay: 100ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  white-space: nowrap;
+  animation: pictures 30s linear infinite;
+  animation-delay: 100ms;
 }
 
 @keyframes pictures {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-33.33333%, 0);
-    }
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-33.33333%, 0);
+  }
 }

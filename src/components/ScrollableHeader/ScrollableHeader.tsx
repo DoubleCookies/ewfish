@@ -1,7 +1,7 @@
 import ewfishLogo from '../../images/ScrollableHeader/ewfish text logo.webp';
-import ewLong from "../../images/ScrollableHeader/slide.webp";
+import ewLong from '../../images/ScrollableHeader/slide.webp';
 import './ScrollableHeader.css';
-import React from "react";
+import React from 'react';
 
 function ScrollableHeader() {
   return (

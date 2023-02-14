@@ -1,20 +1,19 @@
-import Table from "rc-table";
+import Table from 'rc-table';
 import './Results.css';
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import bg from "../../images/Backgrounds/bg2.webp";
+import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import bg from '../../images/Backgrounds/bg2.webp';
 
 interface TableRecord {
-  name: string,
-  date: string,
-  type?: 'Local' | 'Global',
-  place: string,
-  link: string,
-  info?: string,
-  className?: string
+  name: string;
+  date: string;
+  type?: 'Local' | 'Global';
+  place: string;
+  link: string;
+  info?: string;
+  className?: string;
 }
 
 function Results() {
-
   const columns = [
     {
       title: 'Name',
@@ -39,8 +38,8 @@ function Results() {
       dataIndex: 'place',
       key: 'place',
       width: 200,
-      render (place: string) {
-        return <ReactMarkdown>{place}</ReactMarkdown>
+      render(place: string) {
+        return <ReactMarkdown>{place}</ReactMarkdown>;
       },
     },
     {
@@ -48,8 +47,12 @@ function Results() {
       dataIndex: 'link',
       key: 'link',
       width: 100,
-      render (link: string) {
-        return <a href={link} target="_blank" rel="noreferrer">Link</a>;
+      render(link: string) {
+        return (
+          <a href={link} target="_blank" rel="noreferrer">
+            Link
+          </a>
+        );
       },
     },
     {
@@ -57,10 +60,10 @@ function Results() {
       dataIndex: 'info',
       key: 'info',
       width: 500,
-      render (text: string) {
-        return <ReactMarkdown className={"info-text"}>{text}</ReactMarkdown>
+      render(text: string) {
+        return <ReactMarkdown className={'info-text'}>{text}</ReactMarkdown>;
       },
-    }
+    },
   ];
 
   const data: TableRecord[] = [
@@ -86,7 +89,8 @@ function Results() {
       type: 'Local',
       place: '4-5th place',
       link: 'https://challonge.com/ru/TheCupOfTea',
-      info: 'The Cup of Tea was a 3-on-3 tournament which was pretty interesting! ' +
+      info:
+        'The Cup of Tea was a 3-on-3 tournament which was pretty interesting! ' +
         'We were really close to getting 3rd place but lost both matches to secure it.',
     },
     {
@@ -95,7 +99,7 @@ function Results() {
       type: 'Global',
       place: '4th',
       link: 'https://inkleagues.challonge.com/ru/S11D8W/groups',
-      info: 'Our first experience in a worldwide tournament! In the end we almost made it to top cut.'
+      info: 'Our first experience in a worldwide tournament! In the end we almost made it to top cut.',
     },
     {
       name: 'Triton Cup 9',
@@ -111,7 +115,7 @@ function Results() {
       type: 'Global',
       place: '4th place in group -> **1st place in Emerald Bracket!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-13/60c99644e6119309d80baf66/info?infoTab=details',
-      info: 'Our first LSL. It went quite well!'
+      info: 'Our first LSL. It went quite well!',
     },
     {
       name: 'Low Ink July 2021',
@@ -119,7 +123,7 @@ function Results() {
       type: 'Global',
       place: '28th place',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-july-2021/60d9eabf680ff6397774b01d/stage/60fb8b5bba8e2f6fd9fd18e6/results',
-      info: 'Our first Low Ink. Unfortunately we didn\'t make it to day 2.'
+      info: "Our first Low Ink. Unfortunately we didn't make it to day 2.",
     },
     {
       name: 'FLUTI Division C',
@@ -127,7 +131,7 @@ function Results() {
       type: 'Global',
       place: '3-5th place',
       link: 'https://inkleagues.challonge.com/ru/FLUTI1C/groups',
-      info: ''
+      info: '',
     },
     {
       name: 'Little Squid League 15',
@@ -144,8 +148,9 @@ function Results() {
       type: 'Global',
       place: '113th place',
       link: 'https://www.start.gg/tournament/superjump-1/events/splatoon-2/overview',
-      info: 'This tournament was really big. On day 1 we had 2 very close sets but lost both of them.' +
-        ' We didn\'t make it far on day 2 but it was a good experience regardless!'
+      info:
+        'This tournament was really big. On day 1 we had 2 very close sets but lost both of them.' +
+        " We didn't make it far on day 2 but it was a good experience regardless!",
     },
     {
       name: 'INKTAIL #1',
@@ -161,7 +166,7 @@ function Results() {
       type: 'Global',
       place: '20th place in group -> 7th place in Gamma Bracket',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-october-2021/6154a11821cea533c019c03e/info?infoTab=details',
-      info: 'We made it to day 2, yay!'
+      info: 'We made it to day 2, yay!',
     },
     {
       name: 'Little Squid League 16',
@@ -169,7 +174,7 @@ function Results() {
       type: 'Global',
       place: '2nd place in group -> last in top cut',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-16/614b7017d170f07e02483b3c/info?infoTab=details',
-      info: 'Our first time in LSL in top cut!'
+      info: 'Our first time in LSL in top cut!',
     },
     {
       name: 'URC x LoRule',
@@ -186,7 +191,7 @@ function Results() {
       type: 'Global',
       place: '42nd place',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-december-2021/61a7b86e912b8c483bfef289/info?infoTab=details',
-      info: 'Oof. At least our place number was cool.'
+      info: 'Oof. At least our place number was cool.',
     },
     {
       name: 'Little Squid League 17',
@@ -194,7 +199,7 @@ function Results() {
       type: 'Global',
       place: '2nd place in group -> last in top cut',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-17/61c101911ad16a488d95df7e/info?infoTab=details',
-      info: 'Same result as last time.'
+      info: 'Same result as last time.',
     },
     {
       name: 'Low Ink January 2022',
@@ -202,7 +207,7 @@ function Results() {
       type: 'Global',
       place: '29th place',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-january-2022/61c8d1b20334365df3e89703/info?infoTab=schedule',
-      info: ''
+      info: '',
     },
     {
       name: 'Little Squid League 19',
@@ -210,7 +215,7 @@ function Results() {
       type: 'Global',
       place: '**1st place in group** -> last in top cut  ',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-19/61f8c16b376dea214be01074/info?infoTab=details',
-      info: 'Moving forward little by little!'
+      info: 'Moving forward little by little!',
     },
     {
       name: 'Low Ink March 2022',
@@ -218,7 +223,7 @@ function Results() {
       type: 'Global',
       place: '28th place',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-march-2022/621e76233f6dac1945388fff/info?infoTab=details',
-      info: ''
+      info: '',
     },
     {
       name: 'Splatalittle #3',
@@ -235,7 +240,7 @@ function Results() {
       type: 'Global',
       place: '22nd place in group -> 5th place in Gamma Bracket',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-may-2022/626c9e15f4a14b17d11c0c01/info?infoTab=details',
-      info: 'Our best Low Ink so far!'
+      info: 'Our best Low Ink so far!',
     },
     {
       name: 'Little Squid League 20',
@@ -243,8 +248,9 @@ function Results() {
       type: 'Global',
       place: '19th place in group -> **1st place in Silver bracket!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-20/623b9a3915accf7571ebf562/info?infoTab=details',
-      info: 'Day 1 was a bit rough but on day 2 we played really well and won every set! ' +
-        'It\'s also our first time getting a money prize.',
+      info:
+        'Day 1 was a bit rough but on day 2 we played really well and won every set! ' +
+        "It's also our first time getting a money prize.",
       className: 'row-highlight',
     },
     {
@@ -253,7 +259,7 @@ function Results() {
       type: 'Global',
       place: '**4th place in group** -> last place in top cut',
       link: 'https://battlefy.com/mulloway-institute-of-turfing/minnow-cup-14-clam-blitz-edition/628a5df7d3f0f52fc103c63b/info?infoTab=details',
-      info: 'The group stage was great for us but unfortunately we lost in the single elimination Top Cut R1.'
+      info: 'The group stage was great for us but unfortunately we lost in the single elimination Top Cut R1.',
     },
     {
       name: 'Low Ink June 2022',
@@ -261,7 +267,7 @@ function Results() {
       type: 'Global',
       place: '27th place in group -> 9th place in Gamma Bracket',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-june-2022/628ba468ab4cf43f09d24943/info?infoTab=details',
-      info: ''
+      info: '',
     },
     {
       name: 'Little Squid League 21',
@@ -269,7 +275,7 @@ function Results() {
       type: 'Global',
       place: '**1st place in group** -> 5th place in Top Cut',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-21/6297ef84beaa0d33b34d3e17/info?infoTab=details',
-      info: 'Finally — we won R1 in Top Cut. *The curse is broken.*'
+      info: 'Finally — we won R1 in Top Cut. *The curse is broken.*',
     },
     {
       name: 'From The Splatalittle Up',
@@ -277,7 +283,7 @@ function Results() {
       type: 'Global',
       place: '6th place in group stage -> 9th place in top cut.',
       link: 'https://battlefy.com/splatalittle-tournaments/from-the-splatalittle-up/62b9a4324ae5ae569aac9baa/info?infoTab=details',
-      info: 'The group stage went better than expected, however other teams ended up being stronger than us.'
+      info: 'The group stage went better than expected, however other teams ended up being stronger than us.',
     },
     {
       name: 'Little Squid League 22',
@@ -285,7 +291,7 @@ function Results() {
       type: 'Global',
       place: '**1st place in group** -> 5th place in Top Cut',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-22/62be2e76e636b374a9863975/info?infoTab=details',
-      info: 'Same result as last time.'
+      info: 'Same result as last time.',
     },
     {
       name: 'Fight Club Week 3',
@@ -302,7 +308,7 @@ function Results() {
       type: 'Global',
       place: '81st place',
       link: 'https://www.start.gg/tournament/superjump-2/details',
-      info: 'The last major Splatoon 2 tournament in which we participated! We hope SuperJump will return for Splatoon 3!'
+      info: 'The last major Splatoon 2 tournament in which we participated! We hope SuperJump will return for Splatoon 3!',
     },
     {
       name: 'Little Squid League 23',
@@ -310,7 +316,8 @@ function Results() {
       type: 'Global',
       place: '2nd place in group -> **2nd place in Top Cut!**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-23/62d9db5a78182b34ef310cc7/info?infoTab=details',
-      info: 'We were REALLY close to winning this LSL. Unfortunately we made too many mistakes and lost 3:4 to [CAKE]. ' +
+      info:
+        'We were REALLY close to winning this LSL. Unfortunately we made too many mistakes and lost 3:4 to [CAKE]. ' +
         'Regardless this is our best LSL so far!',
       className: 'row-highlight',
     },
@@ -320,7 +327,8 @@ function Results() {
       type: 'Local',
       place: '**2nd place**',
       link: 'https://challonge.com/summertime_inking',
-      info: 'A small local tournament with double elimination. We managed to win every set except the one against ' +
+      info:
+        'A small local tournament with double elimination. We managed to win every set except the one against ' +
         'the team with some of the best players from our country!',
       className: 'row-highlight',
     },
@@ -330,7 +338,8 @@ function Results() {
       type: 'Local',
       place: '**2nd place**',
       link: 'https://challonge.com/f3ou4aw4',
-      info: 'Another local tournament — now with more teams! We finished at the same place and lost to the same team ' +
+      info:
+        'Another local tournament — now with more teams! We finished at the same place and lost to the same team ' +
         '(except they had an even stronger line-up)',
       className: 'row-highlight',
     },
@@ -340,8 +349,9 @@ function Results() {
       type: 'Global',
       place: '28th place in group',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-august-2022/62ddc6ad132b551f11f3c285/info?infoTab=details',
-      info: '*Oof. Playing two tournaments in a row is hard.*  \n' +
-        'Low Ink will return in Splatoon 3 and I hope we will play in it!'
+      info:
+        '*Oof. Playing two tournaments in a row is hard.*  \n' +
+        'Low Ink will return in Splatoon 3 and I hope we will play in it!',
     },
     {
       name: 'The Семья — турнир по Splatoon 2',
@@ -366,7 +376,8 @@ function Results() {
       type: 'Local',
       place: '**1st place!**',
       link: 'https://challonge.com/SplatoonSunday2',
-      info: 'Finally — our first win in local tournaments! Splatoon Sunday is a series of tournaments where new rules apply every time. Splatoon Sunday #2 was about randomized weapons — and ' +
+      info:
+        'Finally — our first win in local tournaments! Splatoon Sunday is a series of tournaments where new rules apply every time. Splatoon Sunday #2 was about randomized weapons — and ' +
         'we won every team in our way with these rules! Maybe random helped us a bit — who knows?',
       className: 'row-highlight',
     },
@@ -376,7 +387,8 @@ function Results() {
       type: 'Global',
       place: '16th place in group -> **2nd place in Delta Bracket**',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-october-2022/63348d5f2fa97e2bc6635c56/info?infoTab=details',
-      info: 'This Low Ink was the biggest one — **170 teams**! Getting in Day 2 was a hard task and we barely managed to do it ' +
+      info:
+        'This Low Ink was the biggest one — **170 teams**! Getting in Day 2 was a hard task and we barely managed to do it ' +
         'with 3-3 in Day 1 (every other team in group had at least 4-2). In Delta Bracket we had really good sets ' +
         'with Overtime!! and other teams and lost only in grand final. That is our best Low Ink so far!',
       className: 'row-highlight',
@@ -396,7 +408,7 @@ function Results() {
       place: '2nd place',
       link: 'https://challonge.com/3yx0ygs2',
       info: 'Another local tournament and *another second place*. We were close to bracket reset but lost 2-3 in grand final.',
-      className: 'row-highlight'
+      className: 'row-highlight',
     },
     {
       name: 'Minnow Cup #17 — Rainmaker Edition',
@@ -404,7 +416,8 @@ function Results() {
       type: 'Global',
       place: '9th place',
       link: 'https://battlefy.com/mulloway-institute-of-turfing/minnow-cup-17-rainmaker-edition/633b0e373f23a64beb614363/info?infoTab=details',
-      info: 'We were really close to top-8 — well, it\'s all about coefficients because there were ' +
+      info:
+        "We were really close to top-8 — well, it's all about coefficients because there were " +
         'a lot of teams with 3-2 in the end.',
     },
     {
@@ -414,7 +427,7 @@ function Results() {
       place: '1st place in group -> **3rd place in gold bracket**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-25/6349be080f176511550710fd/info?infoTab=details',
       info: 'We collected every prize place except 1st. Well, I hope it will be soon!',
-      className: 'row-highlight'
+      className: 'row-highlight',
     },
     {
       name: 'Speed Ladder 10',
@@ -422,7 +435,7 @@ function Results() {
       type: 'Global',
       place: '260th place (?), 5-4 in general',
       link: 'https://www.start.gg/tournament/inkademy-speed-ladder-10/details',
-      info: 'Pretty good result. Don\'t look at place — smash gg ladder just works in a bit weird way.',
+      info: "Pretty good result. Don't look at place — smash gg ladder just works in a bit weird way.",
     },
     {
       name: 'Low Ink November 2022',
@@ -430,7 +443,8 @@ function Results() {
       type: 'Global',
       place: '**9th place in group** -> lost in R1 in Gamma Bracket',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-november-2022/636141f93dd21d0b2088f5ec/info?infoTab=details',
-      info: 'Best group result in LI so far and first 4-2 in group stage! Unfortunately second day wasn\'t so good, ' +
+      info:
+        "Best group result in LI so far and first 4-2 in group stage! Unfortunately second day wasn't so good, " +
         'but overall — good result!',
       className: 'row-highlight',
     },
@@ -443,7 +457,7 @@ function Results() {
       info: '',
     },
     {
-      name: 'Camp\'Ink #1',
+      name: "Camp'Ink #1",
       date: '17.12.2022',
       type: 'Local',
       place: '2nd place',
@@ -488,8 +502,9 @@ function Results() {
       type: 'Global',
       place: '21st place in group -> **2nd place in Epsilon Bracket!**',
       link: 'https://battlefy.com/inkling-performance-labs/low-ink-january-2023/63b1f24b2395cc75cdfa7da1/info?infoTab=details',
-      info: 'Due to coefs we almost entered day 2, but later someone dropped, so we could play in day 2 Epsilon Bracket... ' +
-          'And we almost won this one! We even managed to start Bracket Reset!',
+      info:
+        'Due to coefs we almost entered day 2, but later someone dropped, so we could play in day 2 Epsilon Bracket... ' +
+        'And we almost won this one! We even managed to start Bracket Reset!',
       className: 'row-highlight',
     },
     {
@@ -515,21 +530,24 @@ function Results() {
       type: 'Local',
       place: '**1st place**',
       link: 'https://challonge.com/ru/SplatoonSunday16',
-      info: '*Two in a row!* This week was an interesting tourney theme where the further — the worse the weapon. ' +
-          'Also, this is the last tournament for yaga...',
+      info:
+        '*Two in a row!* This week was an interesting tourney theme where the further — the worse the weapon. ' +
+        'Also, this is the last tournament for yaga...',
       className: 'row-highlight',
     },
   ];
 
   return (
-    <div className="anim-bg-block" style={{width: '100%', backgroundImage: `url(${bg})`}} >
+    <div className="anim-bg-block" style={{ width: '100%', backgroundImage: `url(${bg})` }}>
       <div className="table-container">
         <Table
           className="results-table"
           columns={columns}
           data={data.reverse()}
           rowKey={(record, i) => `row-${i}`}
-          rowClassName={(record, i) => (record.className && record.className.length > 0) ? `row-${i} ${record.className}` : `row-${i}`}
+          rowClassName={(record, i) =>
+            record.className && record.className.length > 0 ? `row-${i} ${record.className}` : `row-${i}`
+          }
           scroll={{ x: 750 }}
         />
       </div>

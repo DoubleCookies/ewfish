@@ -52,27 +52,37 @@
 .section-divider {
   border: 0;
   height: 4px;
-  background-image: linear-gradient(90deg, transparent 0%, rgba(231, 162, 90, 0.95) 15%, rgba(231, 162, 90, 0.95) 85%, transparent 100%);
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(231, 162, 90, 0.95) 15%,
+    rgba(231, 162, 90, 0.95) 85%,
+    transparent 100%
+  );
 }
 
-.twitter-icon, .discord-icon, .vk-icon {
+.twitter-icon,
+.discord-icon,
+.vk-icon {
   color: #b88dbd;
   transition: 0.3s;
 }
 
-.twitter-icon:hover, .discord-icon:hover, .vk-icon:hover {
+.twitter-icon:hover,
+.discord-icon:hover,
+.vk-icon:hover {
   transition: 0.3s;
   transform: scale(1.2);
 }
 
 .twitter-icon:hover {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .discord-icon:hover {
-  color: #5865F2;
+  color: #5865f2;
 }
 
 .vk-icon:hover {
-  color: #4C75A3;
+  color: #4c75a3;
 }

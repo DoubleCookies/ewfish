@@ -1,13 +1,13 @@
 .divider-block {
-    background: #151515;
-    color: var(--text-color);
+  background: #151515;
+  color: var(--text-color);
 }
 
 .divider-block hr {
-    margin: 0;
+  margin: 0;
 }
 
 .section-header {
-    font-size: 2.5rem;
-    font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  font-family: 'Rubik', sans-serif;
 }

@@ -1,125 +1,126 @@
 .slide-block {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 
-    position: relative;
+  position: relative;
 }
 
-.info-column, .picture-column {
-    flex-direction: column;
-    
-    justify-content: flex-start;
-    text-align: left;
+.info-column,
+.picture-column {
+  flex-direction: column;
+
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .info-column {
-    width: calc(75% - 100px);
-    align-items: flex-start;
-    padding-left: 50px;
-    margin-right: 10px;
+  width: calc(75% - 100px);
+  align-items: flex-start;
+  padding-left: 50px;
+  margin-right: 10px;
 }
 
 .picture-column {
-    display: flex;
-    justify-content: center;
-    width: 25%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  text-align: center;
 }
 
 .picture-column img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .info-column .name {
-    font-size: 2.2rem;
-    font-weight: bold;
+  font-size: 2.2rem;
+  font-weight: bold;
 }
 
 .info-column .pr {
-    font-size: 1.2rem;
-    margin-right: 10px;
-    font-style: italic;
-    font-weight: normal;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .info-column .title {
-    font-size: 1.6rem;
-    font-style: italic;
-    margin-bottom: 10px;
+  font-size: 1.6rem;
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
 .info-column .sub-info {
-    font-size: 1.1rem;
-    text-align: justify;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
 .info-column .pitoy-special {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .weapon-img {
-    width: 80px;
-    height: auto;
-    margin-right: 10px;
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 750px) {
-    .slide-block {
-        flex-direction: column;
-    }
+  .slide-block {
+    flex-direction: column;
+  }
 
-    .info-column {
-        width: calc(100% - 100px);
-    }
+  .info-column {
+    width: calc(100% - 100px);
+  }
 
-    .picture-column {
-        display: block;
+  .picture-column {
+    display: block;
 
-        position: absolute;
-        top: -10vh;
-        right: 20px;
-    }
+    position: absolute;
+    top: -10vh;
+    right: 20px;
+  }
 
-    .picture-column img {
-        height: 200px;
-        width: auto;
-    }
+  .picture-column img {
+    height: 200px;
+    width: auto;
+  }
 
-    .info-column .name {
-        font-size: 1.5rem;
-    }
+  .info-column .name {
+    font-size: 1.5rem;
+  }
 
-    .info-column .pr {
-        font-size: 0.9rem;
-    }
+  .info-column .pr {
+    font-size: 0.9rem;
+  }
 
-    .info-column .title {
-        font-size: 1.2rem;
-    }
+  .info-column .title {
+    font-size: 1.2rem;
+  }
 
-    .info-column .sub-info {
-        font-size: 0.9rem;
-    }
+  .info-column .sub-info {
+    font-size: 0.9rem;
+  }
 
-    .info-column .pitoy-special {
-        font-size: 0.8rem;
-    }
+  .info-column .pitoy-special {
+    font-size: 0.8rem;
+  }
 
-    .weapon-img {
-        width: 32px;
-        margin-right: 5px;
-    }
+  .weapon-img {
+    width: 32px;
+    margin-right: 5px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .picture-column {
-        display: none;
-    }
+  .picture-column {
+    display: none;
+  }
 
-    .info-column .pitoy-special {
-        font-size: 0.8rem;
-    }
+  .info-column .pitoy-special {
+    font-size: 0.8rem;
+  }
 }

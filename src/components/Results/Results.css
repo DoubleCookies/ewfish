@@ -1,53 +1,53 @@
 .table-container {
-    height: 80vh;
-    overflow-y: scroll;
+  height: 80vh;
+  overflow-y: scroll;
 }
 .results-table {
-    font-family: 'Commissioner', sans-serif;
+  font-family: 'Commissioner', sans-serif;
 }
 
 .results-table table {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.results-table table th.rc-table-cell  {
-    font-size: 1.4rem;
+.results-table table th.rc-table-cell {
+  font-size: 1.4rem;
 }
 
-.results-table table td.rc-table-cell  {
-    font-size: 1.2rem;
+.results-table table td.rc-table-cell {
+  font-size: 1.2rem;
 }
 
 .info-text {
-    font-size: 1.1rem;
-    padding-right: 10px;
-    padding-left: 10px;
+  font-size: 1.1rem;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 @media only screen and (max-width: 750px) {
+  .results-table table th.rc-table-cell {
+    font-size: 1.2rem;
+  }
 
-    .results-table table th.rc-table-cell  {
-        font-size: 1.2rem;
-    }
-
-    .results-table table td.rc-table-cell, .info-text  {
-        font-size: 1.0rem;
-    }
+  .results-table table td.rc-table-cell,
+  .info-text {
+    font-size: 1rem;
+  }
 }
 
 .rc-table-thead {
-    background: var(--bg-color);
+  background: var(--bg-color);
 }
 
 .rc-table-row {
-    background: rgba(67, 119, 180, 0.38);
+  background: rgba(67, 119, 180, 0.38);
 }
 
 .row-highlight {
-    background: rgba(152, 69, 196, 0.38);
+  background: rgba(152, 69, 196, 0.38);
 }
 
 .row-divider {
-    box-shadow: 0 -4px 0 rgba(97, 204, 241, 0.92);
+  box-shadow: 0 -4px 0 rgba(97, 204, 241, 0.92);
 }
