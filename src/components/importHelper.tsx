@@ -1,5 +1,4 @@
 export function importAll(r: any): Map<string, string> {
-  console.log('importing...');
   let myMap = new Map<string, string>();
   if (!r) {
     return myMap;
