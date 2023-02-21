@@ -1,4 +1,4 @@
-import ewfishLogo from '../../images/ScrollableHeader/ewfish text logo.webp';
+import ewfishLogo from '../../images/ScrollableHeader/ewfishTextLogo.webp';
 import ewLong from '../../images/ScrollableHeader/slide.webp';
 import './ScrollableHeader.css';
 import React from 'react';

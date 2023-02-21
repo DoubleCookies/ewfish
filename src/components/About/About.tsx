@@ -1,8 +1,8 @@
 import skipper from '../../images/TeamScreenshots/Skipper1.webp';
 import skipper2 from '../../images/TeamScreenshots/Skipper2.webp';
-import kelp2 from '../../images/TeamScreenshots/Kelp 2.webp';
+import kelp2 from '../../images/TeamScreenshots/Kelp2.webp';
 import gang from '../../images/TeamScreenshots/GANG.webp';
-import manta1 from '../../images/TeamScreenshots/Manta 1.webp';
+import manta1 from '../../images/TeamScreenshots/Manta1.webp';
 import blackbelly from '../../images/TeamScreenshots/Blackbelly.webp';
 import bg from '../../images/Backgrounds/bg3.webp';
 import './About.css';
