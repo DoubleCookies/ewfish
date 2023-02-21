@@ -13,7 +13,7 @@ function About() {
     <div className="anim-bg-block" style={{ backgroundImage: `url(${bg})` }}>
       <div className="about-row">
         <div className="main-image">
-          <img src={skipper} alt="Ewfish on Skipper Pavilion" className="about-img" style={{ width: 450 }} />
+          <img src={skipper} alt="EWfish on Skipper Pavilion" className="about-img" style={{ width: 450 }} />
         </div>
         <div className="header-column">
           <i className="section-subHeader">
@@ -43,7 +43,7 @@ function About() {
           </p>
           <ReactMarkdown className="about-text">
             This tourney was held in March 2021. It was a typical Double Elimination format but there was a twist — it
-            was 3-on-3 instead of 4-on-4. Right before this event Ewfish finally became, well, Ewfish (and the first,
+            was 3-on-3 instead of 4-on-4. Right before this event EWfish finally became, well, Ewfish (and the first,
             the best, and the only logo was created). The tournament went great — we almost got to the losers bracket
             finale! A few days after The Cup Of Tea, Chronya (one of the strongest russian Splatoon players) suggested
             that we participate in LUTI and even offered to help us as a sub. We decided to try it out and that decision
@@ -77,19 +77,19 @@ function About() {
         </div>
         <div className="col-img">
           <div className="i1r">
-            <img src={manta1} alt="Ewfish on Manta Maria 1" className="about-img" style={{ width: 600 }} />
+            <img src={manta1} alt="EWfish on Manta Maria 1" className="about-img" style={{ width: 600 }} />
           </div>
           <div className="i2r">
-            <img src={kelp2} alt="Ewfish on Kelp Dome 2" className="about-img" />
+            <img src={kelp2} alt="EWfish on Kelp Dome 2" className="about-img" />
           </div>
           <div className="i3r">
-            <img src={skipper2} alt="Ewfish on Skipper Pavilion" className="about-img" style={{ width: 550 }} />
+            <img src={skipper2} alt="EWfish on Skipper Pavilion" className="about-img" style={{ width: 550 }} />
           </div>
           <div className="i4r">
-            <img src={gang} alt="Ewfish GANG meme" className="about-img" style={{ width: 400 }} />
+            <img src={gang} alt="EWfish GANG meme" className="about-img" style={{ width: 400 }} />
           </div>
           <div className="i5r">
-            <img src={blackbelly} alt="Ewfish on Blackbelly Skatepark" className="about-img" style={{ width: 550 }} />
+            <img src={blackbelly} alt="EWfish on Blackbelly Skatepark" className="about-img" style={{ width: 550 }} />
           </div>
         </div>
       </div>

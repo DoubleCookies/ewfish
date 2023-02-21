@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer-block">
       <div className="text-a">
-        Created by DblCookies with help from Ewfish members.
+        Created by DblCookies with help from EWfish members.
         <a className="gh-link" href="https://github.com/DoubleCookies/ewfish" target="_blank" rel="noreferrer">
           Source code
         </a>

@@ -1,6 +1,6 @@
-# Ewfish
+# EWfish
 
-Home page for Ewfish — Splatoon 2 team!
+Home page for EWfish — Splatoon 2 team!
 
 Created with [create-react-app](https://github.com/facebook/create-react-app).
 

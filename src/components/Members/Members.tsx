@@ -222,7 +222,7 @@ function Members() {
                 role={'Anchor/Slayer'}
                 joinDate={'2022'}
                 bio={
-                  'Ouzernen joined ewfish for only one tournament but decided to stay because of the ' +
+                  'Ouzernen joined EWfish for only one tournament but decided to stay because of the ' +
                   '“good competitive team” (In their own words). He likes to play aggressively ' +
                   'in matches regardless of weapon.  \n' +
                   'Ouzernen also enjoys to draw however they have no socials except for @ouzernen in vk.'
