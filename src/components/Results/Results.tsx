@@ -497,7 +497,7 @@ function Results() {
       info: 'Better than previous one. Also we had emergency sub and this result is pretty good.',
     },
     {
-      name: 'Little Squid League 26',
+      name: 'Low Ink January 2023',
       date: '21.01.2023',
       type: 'Global',
       place: '21st place in group -> **2nd place in Epsilon Bracket!**',
@@ -521,7 +521,7 @@ function Results() {
       type: 'Local',
       place: '**1st place**',
       link: 'https://battlefy.com/splatsville/%D1%83%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D0%BF%D0%BB%D1%8E%D1%85-%D0%B7%D0%B8%D0%BC%D0%B0-2023-3/63d9a61734202e66355bcd80/stage/63d9a65c7b6f052e260bac05/bracket/',
-      info: 'Finally! After a lot of tournaments we managed another first place!',
+      info: 'Finally! After a lot of local tournaments we managed to get another first place!',
       className: 'row-highlight',
     },
     {
@@ -533,6 +533,27 @@ function Results() {
       info:
         '*Two in a row!* This week was an interesting tourney theme where the further — the worse the weapon. ' +
         'Also, this is the last tournament for yaga...',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Splatoon Sunday #17',
+      date: '12.02.2023',
+      type: 'Local',
+      place: '**1st place**',
+      link: 'https://challonge.com/ru/SplatoonSunday16',
+      info: '*Three in a row!* This week we could only use 2 predefined setups for a team - and it worked pretty good!',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Low Ink February 2023',
+      date: '19.02.2023',
+      type: 'Global',
+      place: '**7th place in group** -> lost in R1 in Beta Bracket',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-november-2022/636141f93dd21d0b2088f5ec/info?infoTab=details',
+      info:
+        'Another 4-2 in group stage + good coefs allowed us to get into the top-32 bracket (another new record!), ' +
+        'which is a great result for us... but the price for that is a ' +
+        'somewhat expected defeat in day 2. *Well, we still won a couple of games.*',
       className: 'row-highlight',
     },
   ];
