@@ -1,4 +1,4 @@
-import skipper from '../../images/TeamScreenshots/Skipper 1.webp';
+import skipper from '../../images/TeamScreenshots/Skipper1.webp';
 import skipper2 from '../../images/TeamScreenshots/Skipper 2.webp';
 import kelp2 from '../../images/TeamScreenshots/Kelp 2.webp';
 import gang from '../../images/TeamScreenshots/GANG.webp';
