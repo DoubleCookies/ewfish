@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ewfish/static/css/main.c88690d6.css",
-    "main.js": "/ewfish/static/js/main.0be71df9.js",
-    "static/media/Skipper 2.webp": "/ewfish/static/media/Skipper 2.5860ae1f915b662400f8.webp",
-    "static/media/Kelp 2.webp": "/ewfish/static/media/Kelp 2.1aa6fffd04522d7762bd.webp",
+    "main.js": "/ewfish/static/js/main.72899967.js",
+    "static/media/Skipper2.webp": "/ewfish/static/media/Skipper2.5860ae1f915b662400f8.webp",
+    "static/media/Kelp2.webp": "/ewfish/static/media/Kelp2.1aa6fffd04522d7762bd.webp",
     "static/media/playerBg2.webp": "/ewfish/static/media/playerBg2.fa33b2c8c0fa4d6b5aaa.webp",
-    "static/media/Manta 1.webp": "/ewfish/static/media/Manta 1.7c050a4013f8659e95b9.webp",
-    "static/media/ewfish text logo.webp": "/ewfish/static/media/ewfish text logo.24a45e2cd5853867496e.webp",
+    "static/media/Manta1.webp": "/ewfish/static/media/Manta1.7c050a4013f8659e95b9.webp",
+    "static/media/ewfishTextLogo.webp": "/ewfish/static/media/ewfishTextLogo.24a45e2cd5853867496e.webp",
     "static/media/Blackbelly.webp": "/ewfish/static/media/Blackbelly.da085f93001af15e7c86.webp",
-    "static/media/Skipper 1.webp": "/ewfish/static/media/Skipper 1.63892d66705e09768579.webp",
-    "static/media/GANG.webp": "/ewfish/static/media/GANG.b80ec16c73b1e0242c7b.webp",
+    "static/media/Skipper1.webp": "/ewfish/static/media/Skipper1.63892d66705e09768579.webp",
+    "static/media/Gang.webp": "/ewfish/static/media/Gang.b80ec16c73b1e0242c7b.webp",
     "static/media/bg1.webp": "/ewfish/static/media/bg1.48fa1205ca7e2e7a461f.webp",
     "static/media/bg4.webp": "/ewfish/static/media/bg4.e3dce89a11ed8a994464.webp",
     "static/media/tent3.webp": "/ewfish/static/media/tent3.2f8a4a0fd64799d5f192.webp",
@@ -46,10 +46,10 @@
     "static/media/zap85.webp": "/ewfish/static/media/zap85.977c9a369d6c0acf81b0.webp",
     "index.html": "/ewfish/index.html",
     "main.c88690d6.css.map": "/ewfish/static/css/main.c88690d6.css.map",
-    "main.0be71df9.js.map": "/ewfish/static/js/main.0be71df9.js.map"
+    "main.72899967.js.map": "/ewfish/static/js/main.72899967.js.map"
   },
   "entrypoints": [
     "static/css/main.c88690d6.css",
-    "static/js/main.0be71df9.js"
+    "static/js/main.72899967.js"
   ]
 }
