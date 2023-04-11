@@ -98,8 +98,9 @@ function Results() {
       date: 'Spring 2021',
       type: 'Global',
       place: '4th',
-      link: 'https://inkleagues.challonge.com/ru/S11D8W/groups',
+      link: 'https://inkleagues.challonge.com/S11D8W/groups',
       info: 'Our first experience in a worldwide tournament! In the end we almost made it to top cut.',
+      className: 'row-highlight-2',
     },
     {
       name: 'Triton Cup 9',
@@ -184,6 +185,16 @@ function Results() {
       link: 'https://brackethq.com/b/1yhv/',
       info: 'Another 3-on-3 tournament. Our only loss was against the strongest team with some of the best players from our country!',
       className: 'row-highlight',
+    },
+    {
+      name: 'LUTI Season 12 Div 8',
+      date: '2021-2022',
+      type: 'Global',
+      place: '5th',
+      link: 'https://inkleagues.challonge.com/S12D8w/groups',
+      info: 'Second LUTI season for us — and same division. Group stage was rough for us — we finished only on 5th place. *Not ' +
+          'result we were expecting.*',
+      className: 'row-highlight-2',
     },
     {
       name: 'Low Ink December 2021',
@@ -513,7 +524,7 @@ function Results() {
       type: 'Local',
       place: '2nd place',
       link: 'https://challonge.com/ru/SplatoonSunday15',
-      info: 'Salmon Run Special! Only lost to team with epic guy with all VP 999.',
+      info: 'Salmon Run Special! Only lost to team with epic guy with all EVP 999.',
     },
     {
       name: 'Ультраплюх #3',
@@ -523,6 +534,17 @@ function Results() {
       link: 'https://battlefy.com/splatsville/%D1%83%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D0%BF%D0%BB%D1%8E%D1%85-%D0%B7%D0%B8%D0%BC%D0%B0-2023-3/63d9a61734202e66355bcd80/stage/63d9a65c7b6f052e260bac05/bracket/',
       info: 'Finally! After a lot of local tournaments we managed to get another first place!',
       className: 'row-highlight',
+    },
+    {
+      name: 'LUTI Season 13 (Div 7)',
+      date: '2022-2023',
+      type: 'Global',
+      place: '**2nd place in group** -> Lost in R1 in Play-off',
+      link: 'https://inkleagues.challonge.com/S13D7',
+      info: 'Biggest Splatoon event where we are participating 3rd time! After a lot of training and other tournaments we went from div 8 ' +
+          'to div 7 and were ready to get as high as we can. We won every set except one in Group stage... but it\'s seeded us for ' +
+          'stronger opponent and in result we lost in round 1 in Play-off. Even though, it\'s our best LUTI season so far!',
+      className: 'row-highlight-2',
     },
     {
       name: 'Splatoon Sunday #16',
@@ -541,7 +563,7 @@ function Results() {
       type: 'Local',
       place: '**1st place**',
       link: 'https://challonge.com/ru/SplatoonSunday16',
-      info: '*Three in a row!* This week we could only use 2 predefined setups for a team - and it worked pretty good!',
+      info: '*Three in a row!* This week we could only use 2 predefined setups for a team — and it worked pretty good!',
       className: 'row-highlight',
     },
     {
@@ -555,6 +577,32 @@ function Results() {
         'which is a great result for us... but the price for that is a ' +
         'somewhat expected defeat in day 2. *Well, we still won a couple of games.*',
       className: 'row-highlight',
+    },
+    {
+      name: 'Minnow Cup #19: Clam Blitz Edition',
+      date: '11.03.2023',
+      type: 'Global',
+      place: '15th place in group',
+      link: 'https://battlefy.com/mulloway-institute-of-turfing/minnow-cup-20-splat-zones-edition/64163c289377e779a7dbbcbf/info?infoTab=rules',
+      info: 'Definitely not the best result (1-4) but we had THREE game-changing DCs... not the record we like, but the record we have now.',
+    },
+    {
+      name: 'Splatoon Sunday #20',
+      date: '20.03.2023',
+      type: 'Local',
+      place: '4th place',
+      link: 'https://docs.google.com/spreadsheets/d/1dgUhzVQ06tB_bIFnsQSXUgvfLnCXOgMpJZnaBKxJl5U/edit#gid=0',
+      info: 'Not the best Salmon Run result this time — we could play better but had DC (again) and one bad decision later.',
+    },
+    {
+      name: 'Little Squid League 29',
+      date: '09.04.2023',
+      type: 'Global',
+      place: '**2nd place in group** -> lost in R2 (9-16 place)',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-29/640631e713f8ae372c939666/info?infoTab=details',
+      info: 'LSL is now much bigger — from ~30 teams in Splatoon 2 to ~100 teams per tournament! Groups now are much bigger (from 4 ' +
+          'teams to 12-16 per group) and getting 2nd place now is really good thing! Well , later we lost in R2 in Gold Bracket but ' +
+          'still we are satisfied with this placement. *Also we need a little more training.*',
     },
   ];
 
