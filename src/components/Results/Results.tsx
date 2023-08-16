@@ -684,7 +684,7 @@ function Results() {
       type: 'Global',
       place: '**1st place in group -> 5th place in Gold bracket**',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-31/649cfcc589dc7d1e018ff0ea/info?infoTab=details',
-      info: 'So far best result in LSL in Splatoon 3 era! Won every game in Group stage ' +
+      info: 'So far one of the best results in LSL in Splatoon 3 era! Won every game in Group stage ' +
           '(unfortunately one of team couldn\'t play against us) and pretty good run in Gold bracket!',
       className: 'row-highlight',
     },
