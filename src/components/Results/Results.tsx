@@ -571,7 +571,7 @@ function Results() {
       date: '19.02.2023',
       type: 'Global',
       place: '**7th place in group** -> lost in R1 in Beta Bracket',
-      link: 'https://battlefy.com/inkling-performance-labs/low-ink-november-2022/636141f93dd21d0b2088f5ec/info?infoTab=details',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-february-2023/63da8ab96b209747fc68bac2/info?infoTab=details',
       info:
         'Another 4-2 in group stage + good coefs allowed us to get into the top-32 bracket (another new record!), ' +
         'which is a great result for us... but the price for that is a ' +
@@ -596,13 +596,114 @@ function Results() {
     },
     {
       name: 'Little Squid League 29',
-      date: '09.04.2023',
+      date: '08.04.2023',
       type: 'Global',
       place: '**2nd place in group** -> lost in R2 (9-16 place)',
       link: 'https://battlefy.com/little-squid-league/little-squid-league-29/640631e713f8ae372c939666/info?infoTab=details',
       info: 'LSL is now much bigger — from ~30 teams in Splatoon 2 to ~100 teams per tournament! Groups now are much bigger (from 4 ' +
-          'teams to 12-16 per group) and getting 2nd place now is really good thing! Well , later we lost in R2 in Gold Bracket but ' +
+          'teams to 12-16 per group) and getting 2nd place now is really good thing! Well, later we lost in R2 in Gold Bracket but ' +
           'still we are satisfied with this placement. *Also we need a little more training.*',
+    },
+    {
+      name: "Camp'Ink #2",
+      date: '09.04.2023',
+      type: 'Local',
+      place: '2nd place',
+      link: 'https://battlefy.com/splatoon-urc/campink-2/642d20437d3d6340297fd816/info?infoTab=details',
+      info: 'Second Camp\'Ink... and *another second place*. Still we had good fight in Grands.',
+    },
+    {
+      name: 'Splatoon Sunday #23',
+      date: '07.05.2023',
+      type: 'Local',
+      place: '2nd place',
+      link: 'https://challonge.com/SplatoonSunday23',
+      info: 'Pretty good result!',
+    },
+    {
+      name: 'Splatoon Sunday #24',
+      date: '14.05.2023',
+      type: 'Local',
+      place: '2nd place',
+      link: 'https://challonge.com/SplatoonSunday23',
+      info: '*Two 2nd places in a row*',
+    },
+    {
+      name: 'Low Ink May 2023',
+      date: '20.05.2023',
+      type: 'Global',
+      place: '17th place in group -> 5th place in Epsilon bracket',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-may-2023/644ffc4af1170a380a3b20d3/info?infoTab=details',
+      info: 'Not the best Low Ink, but pretty good overall.'
+    },
+    {
+      name: 'Minnow Cup #21: Rainmaker Edition',
+      date: '03.06.2023',
+      type: 'Global',
+      place: '14th place in group',
+      link: 'https://battlefy.com/mulloway-institute-of-turfing/minnow-cup-21-rainmaker-edition/6459bf4054f0df2ea067dd85/stage/6459bfa56d0e0e6d4864186d/results',
+      info: 'One place better than last time... But still not good enough for second part of tournament.',
+    },
+    {
+      name: 'СТУРС #1',
+      date: '04.06.2023',
+      type: 'Local',
+      place: '**1st place**',
+      link: 'https://challonge.com/splatoonSTURS1',
+      info: 'That was new series of tournaments with regular Double Elim bracket. In the end we beat every team we met!',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Little Squid League 30',
+      date: '10.06.2023',
+      type: 'Global',
+      place: '6th place in group -> 4th place in Silver bracket',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-30/646ae015af76e570d0e5e494/info?infoTab=details',
+      info: 'Not the best result overall and a rather sad defeat in the match for 3rd place.',
+    },
+    {
+      name: 'Low Ink June 2023',
+      date: '17.06.2023',
+      type: 'Global',
+      place: '13th place in group -> lost in R1 in Gamma',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-may-2023/644ffc4af1170a380a3b20d3/info?infoTab=details',
+      info: 'Good result in day 1 but not so great games in Gamma Bracket (both were 1-2)'
+    },
+    {
+      name: 'СТУРС #2',
+      date: '02.07.2023',
+      type: 'Local',
+      place: '**1st place**',
+      link: 'https://challonge.com/splatoonSTURS2',
+      info: 'Another win in this tournament series!',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Little Squid League 31',
+      date: '15.07.2023',
+      type: 'Global',
+      place: '**1st place in group -> 5th place in Gold bracket**',
+      link: 'https://battlefy.com/little-squid-league/little-squid-league-31/649cfcc589dc7d1e018ff0ea/info?infoTab=details',
+      info: 'So far best result in LSL in Splatoon 3 era! Won every game in Group stage ' +
+          '(unfortunately one of team couldn\'t play against us) and pretty good run in Gold bracket!',
+      className: 'row-highlight',
+    },
+    {
+      name: 'Low Ink July 2023',
+      date: '22.07.2023',
+      type: 'Global',
+      place: '24th place in group',
+      link: 'https://battlefy.com/inkling-performance-labs/low-ink-july-2023/649f92274d040f5057934ee7/info?infoTab=details',
+      info: 'Went 3-3 but coefs weren\'t on our side. Also this Low Ink was biggest so far, so it was harder to enter day 2.'
+    },
+    {
+      name: 'СТУРС #3',
+      date: '06.08.2023',
+      type: 'Local',
+      place: '**1st place**',
+      link: 'https://challonge.com/splatoonSTURS3',
+      info: 'And another win in this tournament series!',
+      className: 'row-highlight',
     },
   ];
 
