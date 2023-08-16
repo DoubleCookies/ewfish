@@ -39,7 +39,7 @@ function About() {
             <a href="https://challonge.com/ru/TheCupOfTea" target="_blank" rel="noreferrer">
               The Cup Of Tea
             </a>{' '}
-            — one of the last major russian tourneys.
+            — one of the major russian tourneys.
           </p>
           <ReactMarkdown className="about-text">
             This tourney was held in March 2021. It was a typical Double Elimination format but there was a twist — it
@@ -74,6 +74,17 @@ function About() {
             One of our main goals these last two years has been to prepare for Splatoon 3. Well, with certainty we can
             say that we are more than ready for it!
           </p>
+          <span className="section-subHeader">2022 (Splatoon 3)</span>
+          <hr className="section-divider" style={{ width: '40%', marginTop: 0 }} />
+          <ReactMarkdown className="about-text">
+            Finally, in September Splatoon 3 was released! New weapons, new maps, new specials — everything new, and we
+            were excited to looks how everything will work. It was a nice time with a lot of both local and global
+            tournaments — and we even placed **1st** in local tournament, which never happened in Splatoon 2!
+          </ReactMarkdown>
+          <ReactMarkdown className="about-text">
+            Also December 2022 was a starting date for LUTI Season 13, where we were placed in Division 7
+            (while div 11 was lowest now) — our work and trainings after Season 12 were paid off!
+          </ReactMarkdown>
         </div>
         <div className="col-img">
           <div className="i1r">
