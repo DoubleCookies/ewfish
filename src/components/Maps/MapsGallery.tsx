@@ -12,7 +12,7 @@ function MapsGallery() {
   ];
 
   console.log('map', map);
-  const filteredMaps = map == '' ? maps : maps.filter(item => item.name.toLowerCase().includes(map.toLowerCase()));
+  const filteredMaps = map === '' ? maps : maps.filter(item => item.name.toLowerCase().includes(map.toLowerCase()));
 
   return(
       <div className="anim-bg-block" style={{ width: '100%', backgroundImage: `url(${bg})` }}>
