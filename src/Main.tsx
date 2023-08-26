@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Main.css';
 import ScrollableHeader from './components/ScrollableHeader/ScrollableHeader';
 import About from './components/About/About';
 import Results from './components/Results/Results';
@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 import Links from './components/Links/Links';
 import Members from './components/Members/Members';
 
-function App() {
+function Main() {
   return (
     <div className="app">
       <ScrollableHeader />
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;

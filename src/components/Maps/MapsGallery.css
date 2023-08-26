@@ -1,0 +1,6 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.gallery-wrapper {
+    max-width: 1000px;
+    margin: 10px auto;
+}
