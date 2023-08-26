@@ -9,6 +9,19 @@ function MapsGallery() {
 
   const maps = [{key: 'Scorch', name: 'Опалённое Ущелье (Scorch Gorge)'},
     {key: 'Eeltail', name: 'Угрёво-Скатово (Eeltail Alley)'},
+    {key: 'Hagglefish', name: 'Рынок «Свисторыб» (Hagglefish Market)'},
+    {key: 'Undertow', name: 'Приливослив (Undertow Spillway)'},
+    {key: 'Mincemeat', name: 'Цех «Тартар» (Mincemeat Metalworks)'},
+    {key: 'Hammerhead', name: 'Акулий Мост (Hammerhead Bridge)'},
+    {key: 'Museum', name: 'Галерея «Де Берикс» (Museum d_Alfonsino)'},
+    {key: 'Eeltail', name: 'Угрёво-Скатово (Eeltail Alley)'},
+    {key: 'Mahi-Mahi', name: 'Спа-курорт «Золотая рыбка» (Mahi-Mahi Resort)'},
+    {key: 'Inkblot', name: 'Академия «Лепота» (Inkblot Art Academy)'},
+    {key: 'Shipyard', name: 'Осетровые Верфи (Sturgeon Shipyard)'},
+    {key: 'MakoMart', name: 'Горбуша Маркет (MakoMart)'},
+    {key: 'Wahoo', name: 'Луно-парк «Язь» (Wahoo World)'},
+    {key: 'Brinewater', name: 'Тухловодск (Brinewater Springs)'},
+    {key: 'Flounder', name: 'Микрорайон «Камбалово» (Flounder Heights)'},
   ];
 
   console.log('map', map);
