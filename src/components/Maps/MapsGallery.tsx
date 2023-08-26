@@ -37,6 +37,7 @@ function MapsGallery() {
           <div className="gallery-wrapper" key={item.key}>
             <h2>{item.name}</h2>
             <ImageGallery items={generateImageGallery(item.key)} />
+            <hr className="section-divider" />
           </div>))
         }
       </div>
