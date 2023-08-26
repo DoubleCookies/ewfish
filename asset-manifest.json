@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ewfish/static/css/main.8803b8cf.css",
-    "main.js": "/ewfish/static/js/main.4e794c40.js",
+    "main.css": "/ewfish/static/css/main.3087e2e5.css",
+    "main.js": "/ewfish/static/js/main.65ef4da7.js",
     "static/media/Skipper2.webp": "/ewfish/static/media/Skipper2.5860ae1f915b662400f8.webp",
     "static/media/Kelp2.webp": "/ewfish/static/media/Kelp2.1aa6fffd04522d7762bd.webp",
     "static/media/playerBg2.webp": "/ewfish/static/media/playerBg2.fa33b2c8c0fa4d6b5aaa.webp",
@@ -16,6 +16,7 @@
     "static/media/ksloshing.webp": "/ewfish/static/media/ksloshing.46c7817e7f1c8b57fd0b.webp",
     "static/media/bg2.webp": "/ewfish/static/media/bg2.aa26ca6fff301f5ca85f.webp",
     "static/media/bg3.webp": "/ewfish/static/media/bg3.6a38b7c96d0a6c6ca530.webp",
+    "static/media/bg2-3.webp": "/ewfish/static/media/bg2-3.eeb0b3914e628b11824f.webp",
     "static/media/clapple.webp": "/ewfish/static/media/clapple.f8553082a6986b8027fa.webp",
     "static/media/chydra.webp": "/ewfish/static/media/chydra.7ffec4a94d484549ff7a.webp",
     "static/media/heavyremix.webp": "/ewfish/static/media/heavyremix.a1eec0adaed58f0fac36.webp",
@@ -45,11 +46,11 @@
     "static/media/jet.webp": "/ewfish/static/media/jet.87f4314dd06f52415651.webp",
     "static/media/zap85.webp": "/ewfish/static/media/zap85.977c9a369d6c0acf81b0.webp",
     "index.html": "/ewfish/index.html",
-    "main.8803b8cf.css.map": "/ewfish/static/css/main.8803b8cf.css.map",
-    "main.4e794c40.js.map": "/ewfish/static/js/main.4e794c40.js.map"
+    "main.3087e2e5.css.map": "/ewfish/static/css/main.3087e2e5.css.map",
+    "main.65ef4da7.js.map": "/ewfish/static/js/main.65ef4da7.js.map"
   },
   "entrypoints": [
-    "static/css/main.8803b8cf.css",
-    "static/js/main.4e794c40.js"
+    "static/css/main.3087e2e5.css",
+    "static/js/main.65ef4da7.js"
   ]
 }
