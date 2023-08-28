@@ -245,7 +245,7 @@ function Members() {
                   name={'Clyde'}
                   pr={'He/Him'}
                   role={'Anchor/Slayer'}
-                  joinDate={'2022'}
+                  joinDate={'2023'}
                   bio={
                       'Name\'s Clyde! I\'ve been playing Splatoon since late 2020, but didn\'t really get ' +
                       'interested in getting better at the game until the fall of 2022. After playing ' +
