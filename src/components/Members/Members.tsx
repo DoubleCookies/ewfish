@@ -90,11 +90,19 @@ function Members() {
                 Ouzernen
               </span>
             </li>
+            <li>
+              <span
+                  className={activeSlideNumber === 7 ? 'active-slide-label' : 'slide-label'}
+                  onClick={() => activateSlide(7)}
+              >
+                Clyde
+              </span>
+            </li>
             <hr className="divider" />
             <li>
               <span
-                className={activeSlideNumber === 7 ? 'active-slide-label' : 'retired-slide-label'}
-                onClick={() => activateSlide(7)}
+                className={activeSlideNumber === 8 ? 'active-slide-label' : 'retired-slide-label'}
+                onClick={() => activateSlide(8)}
               >
                 Yaga
               </span>
@@ -230,6 +238,22 @@ function Members() {
                 vkLink={'https://vk.com/howstupid'}
                 weapons={['roller', 'clapple', 'kbrush', 'chydra', 'heavyremix']}
                 image={'ouzer'}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                  name={'Clyde'}
+                  pr={'He/Him'}
+                  role={'Anchor/Slayer'}
+                  joinDate={'2022'}
+                  bio={
+                      'Name\'s Clyde! I\'ve been playing Splatoon since late 2020, but didn\'t really get ' +
+                      'interested in getting better at the game until the fall of 2022. After playing ' +
+                      'in a couple of tournaments, I realized I love it and want to get better and really learn how to play! ' +
+                      'Beyond that I am an artist and a music lover who loves cartoons and musicals.'
+                  }
+                  vkLink={'https://vk.com/lynxscorner'}
+                  image={'clyde'}
               />
             </SwiperSlide>
             <SwiperSlide>
