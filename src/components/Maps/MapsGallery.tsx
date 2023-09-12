@@ -14,7 +14,6 @@ function MapsGallery() {
     {key: 'Mincemeat', name: 'Цех «Тартар» (Mincemeat Metalworks)'},
     {key: 'Hammerhead', name: 'Акулий Мост (Hammerhead Bridge)'},
     {key: 'Museum', name: 'Галерея «Де Берикс» (Museum d_Alfonsino)'},
-    {key: 'Eeltail', name: 'Угрёво-Скатово (Eeltail Alley)'},
     {key: 'Mahi-Mahi', name: 'Спа-курорт «Золотая рыбка» (Mahi-Mahi Resort)'},
     {key: 'Inkblot', name: 'Академия «Лепота» (Inkblot Art Academy)'},
     {key: 'Shipyard', name: 'Осетровые Верфи (Sturgeon Shipyard)'},
