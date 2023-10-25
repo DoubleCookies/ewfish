@@ -22,7 +22,7 @@ const data: TableRecord[] = [
     date: '24.01.2021',
     type: 'Local',
     place: '4-5th place',
-    link: 'https://brackethq.com/b/bfcj/',
+    link: 'https://brackethq.com/b/fv5j/',
     info: 'Lost 2:3 in the last round but it was great regardless!',
   },
   {
