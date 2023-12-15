@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ewfish/static/css/main.7e4a66e9.css",
-    "main.js": "/ewfish/static/js/main.548ab2ad.js",
+    "main.css": "/ewfish/static/css/main.1d9799e3.css",
+    "main.js": "/ewfish/static/js/main.18986172.js",
     "static/media/clyde.webp": "/ewfish/static/media/clyde.2c2657425faad2bbf052.webp",
     "static/media/Skipper2.webp": "/ewfish/static/media/Skipper2.5860ae1f915b662400f8.webp",
     "static/media/Kelp2.webp": "/ewfish/static/media/Kelp2.1aa6fffd04522d7762bd.webp",
@@ -47,11 +47,11 @@
     "static/media/jet.webp": "/ewfish/static/media/jet.87f4314dd06f52415651.webp",
     "static/media/zap85.webp": "/ewfish/static/media/zap85.977c9a369d6c0acf81b0.webp",
     "index.html": "/ewfish/index.html",
-    "main.7e4a66e9.css.map": "/ewfish/static/css/main.7e4a66e9.css.map",
-    "main.548ab2ad.js.map": "/ewfish/static/js/main.548ab2ad.js.map"
+    "main.1d9799e3.css.map": "/ewfish/static/css/main.1d9799e3.css.map",
+    "main.18986172.js.map": "/ewfish/static/js/main.18986172.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e4a66e9.css",
-    "static/js/main.548ab2ad.js"
+    "static/css/main.1d9799e3.css",
+    "static/js/main.18986172.js"
   ]
 }
