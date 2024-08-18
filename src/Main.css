@@ -63,6 +63,7 @@
 
 .twitter-icon,
 .discord-icon,
+.maps-icon,
 .vk-icon {
   color: #b88dbd;
   transition: 0.3s;
@@ -70,6 +71,7 @@
 
 .twitter-icon:hover,
 .discord-icon:hover,
+.maps-icon:hover,
 .vk-icon:hover {
   transition: 0.3s;
   transform: scale(1.2);
@@ -85,4 +87,8 @@
 
 .vk-icon:hover {
   color: #4c75a3;
+}
+
+.maps-icon:hover {
+  color: #b54efa;
 }

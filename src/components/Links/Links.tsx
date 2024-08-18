@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import bg from '../../images/Backgrounds/bg1.webp';
 import './Links.css';
+import {faMap} from "@fortawesome/free-solid-svg-icons";
 
 function Links() {
   return (
@@ -17,13 +18,13 @@ function Links() {
           <p>Here we post our tournament results, goofy memes and repost cool stuff made by our team members.</p>
         </div>
         <div className="links-row">
-          <a href="https://discord.com/invite/t2nxshYDYg" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faDiscord} size={'4x'} className="discord-icon" />
+          <a href="/maps" rel="noreferrer">
+            <FontAwesomeIcon icon={faMap} size={'4x'} className="maps-icon" />
           </a>
-          <a href="https://discord.com/invite/t2nxshYDYg" target="_blank" rel="noreferrer">
-            <b style={{ fontSize: '1.4rem' }}>Discord</b>
+          <a href="/maps" rel="noreferrer">
+            <b style={{ fontSize: '1.4rem' }}>Callouts</b>
           </a>
-          <p>Here we prepare for events, discuss strategies and just hang out! Feel free to stop by!</p>
+          <p>Our callouts for maps. Work in progress!</p>
         </div>
       </div>
     </div>
