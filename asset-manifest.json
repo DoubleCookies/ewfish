@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ewfish/static/css/main.3a32c9dd.css",
-    "main.js": "/ewfish/static/js/main.13a626ab.js",
+    "main.js": "/ewfish/static/js/main.3389498e.js",
     "static/media/clyde.webp": "/ewfish/static/media/clyde.2c2657425faad2bbf052.webp",
     "static/media/Skipper2.webp": "/ewfish/static/media/Skipper2.5860ae1f915b662400f8.webp",
     "static/media/Kelp2.webp": "/ewfish/static/media/Kelp2.1aa6fffd04522d7762bd.webp",
@@ -48,10 +48,10 @@
     "static/media/zap85.webp": "/ewfish/static/media/zap85.977c9a369d6c0acf81b0.webp",
     "index.html": "/ewfish/index.html",
     "main.3a32c9dd.css.map": "/ewfish/static/css/main.3a32c9dd.css.map",
-    "main.13a626ab.js.map": "/ewfish/static/js/main.13a626ab.js.map"
+    "main.3389498e.js.map": "/ewfish/static/js/main.3389498e.js.map"
   },
   "entrypoints": [
     "static/css/main.3a32c9dd.css",
-    "static/js/main.13a626ab.js"
+    "static/js/main.3389498e.js"
   ]
 }
