@@ -18,10 +18,10 @@ function Links() {
           <p>Here we post our tournament results, goofy memes and repost cool stuff made by our team members.</p>
         </div>
         <div className="links-row">
-          <a href="/maps" rel="noreferrer">
+          <a href="/ewfish/maps" rel="noreferrer">
             <FontAwesomeIcon icon={faMap} size={'4x'} className="maps-icon" />
           </a>
-          <a href="/maps" rel="noreferrer">
+          <a href="/ewfish/maps" rel="noreferrer">
             <b style={{ fontSize: '1.4rem' }}>Callouts</b>
           </a>
           <p>Our callouts for maps. Work in progress!</p>
