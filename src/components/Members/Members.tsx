@@ -90,21 +90,29 @@ function Members() {
                 Ouzernen
               </span>
             </li>
+            <hr className="divider" />
             <li>
               <span
-                  className={activeSlideNumber === 7 ? 'active-slide-label' : 'slide-label'}
-                  onClick={() => activateSlide(7)}
+                className={activeSlideNumber === 7 ? 'active-slide-label' : 'retired-slide-label'}
+                onClick={() => activateSlide(7)}
+              >
+                Yaga
+              </span>
+            </li>
+            <li>
+              <span
+                  className={activeSlideNumber === 8 ? 'active-slide-label' : 'retired-slide-label'}
+                  onClick={() => activateSlide(8)}
               >
                 Clyde
               </span>
             </li>
-            <hr className="divider" />
             <li>
               <span
-                className={activeSlideNumber === 8 ? 'active-slide-label' : 'retired-slide-label'}
-                onClick={() => activateSlide(8)}
+                  className={activeSlideNumber === 9 ? 'active-slide-label' : 'retired-slide-label'}
+                  onClick={() => activateSlide(9)}
               >
-                Yaga
+                serg0024
               </span>
             </li>
           </ul>
@@ -242,22 +250,6 @@ function Members() {
             </SwiperSlide>
             <SwiperSlide>
               <Slide
-                  name={'Clyde'}
-                  pr={'He/Him'}
-                  role={'Anchor/Slayer'}
-                  joinDate={'2023'}
-                  bio={
-                      'Name\'s Clyde! I\'ve been playing Splatoon since late 2020, but didn\'t really get ' +
-                      'interested in getting better at the game until the fall of 2022. After playing ' +
-                      'in a couple of tournaments, I realized I love it and want to get better and really learn how to play! ' +
-                      'Beyond that I am an artist and a music lover who loves cartoons and musicals.'
-                  }
-                  vkLink={'https://vk.com/lynxscorner'}
-                  image={'clyde'}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Slide
                 name={'Yaga'}
                 title={'Tent is cool'}
                 pr={'He/Him'}
@@ -276,6 +268,37 @@ function Members() {
                 weapons={['kshot', 'tent3', 'gal96']}
               />
             </SwiperSlide>
+          <SwiperSlide>
+            <Slide
+                name={'serg0024'}
+                pr={'He/Him'}
+                role={'Anchor/Slayer'}
+                joinDate={'2023'}
+                leftDate={'2024'}
+                bio={
+                  'Meow'
+                }
+                image={'yaga'}
+                weapons={['kshot', 'tent3', 'gal96']}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Slide
+                name={'Clyde'}
+                pr={'He/Him'}
+                role={'Anchor/Slayer'}
+                joinDate={'2023'}
+                leftDate={'2024'}
+                bio={
+                    'Name\'s Clyde! I\'ve been playing Splatoon since late 2020, but didn\'t really get ' +
+                    'interested in getting better at the game until the fall of 2022. After playing ' +
+                    'in a couple of tournaments, I realized I love it and want to get better and really learn how to play! ' +
+                    'Beyond that I am an artist and a music lover who loves cartoons and musicals.'
+                }
+                vkLink={'https://vk.com/lynxscorner'}
+                image={'clyde'}
+            />
+          </SwiperSlide>
           </Swiper>
         </div>
       </div>
