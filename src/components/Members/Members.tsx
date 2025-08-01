@@ -9,7 +9,6 @@ import { useState } from 'react';
 import Slide from './Slide/Slide';
 import bg from '../../images/Backgrounds/bg4.webp';
 import playerBg from '../../images/playerBg2.webp';
-import playerList from '../../images/playerList.webp';
 
 function Members() {
   const [activeSlideNumber, setActiveSlideNumber] = useState(0);
@@ -32,7 +31,7 @@ function Members() {
   return (
     <div className="anim-bg-block" style={{ width: '100%', backgroundImage: `url(${bg})` }}>
       <div className="flex-all">
-        <div className="player-list-block" style={{ backgroundImage: `url(${playerList})` }}>
+        <div className="player-list-block">
           <ul className="player-list">
             <li>
               <span
@@ -47,7 +46,7 @@ function Members() {
                 className={activeSlideNumber === 1 ? 'active-slide-label' : 'slide-label'}
                 onClick={() => activateSlide(1)}
               >
-                Lifish
+                Zukhrazavr
               </span>
             </li>
             <li>
@@ -55,36 +54,37 @@ function Members() {
                 className={activeSlideNumber === 2 ? 'active-slide-label' : 'slide-label'}
                 onClick={() => activateSlide(2)}
               >
-                Zukhrazavr
+                Pitoy
               </span>
             </li>
+
             <li>
               <span
                 className={activeSlideNumber === 3 ? 'active-slide-label' : 'slide-label'}
                 onClick={() => activateSlide(3)}
-              >
-                Pitoy
-              </span>
-            </li>
-            <li>
-              <span
-                className={activeSlideNumber === 4 ? 'active-slide-label' : 'slide-label'}
-                onClick={() => activateSlide(4)}
-              >
-                Urmrrr
-              </span>
-            </li>
-            <li>
-              <span
-                className={activeSlideNumber === 5 ? 'active-slide-label' : 'slide-label'}
-                onClick={() => activateSlide(5)}
               >
                 Хлебушек
               </span>
             </li>
             <li>
               <span
-                className={activeSlideNumber === 6 ? 'active-slide-label' : 'slide-label'}
+                  className={activeSlideNumber === 4 ? 'active-slide-label' : 'inactive-slide-label'}
+                  onClick={() => activateSlide(4)}
+              >
+                Lifish
+              </span>
+            </li>
+            <li>
+              <span
+                  className={activeSlideNumber === 5 ? 'active-slide-label' : 'inactive-slide-label'}
+                  onClick={() => activateSlide(5)}
+              >
+                Urmrrr
+              </span>
+            </li>
+            <li>
+              <span
+                className={activeSlideNumber === 6 ? 'active-slide-label' : 'inactive-slide-label'}
                 onClick={() => activateSlide(6)}
               >
                 Ouzernen
@@ -104,7 +104,7 @@ function Members() {
                   className={activeSlideNumber === 8 ? 'active-slide-label' : 'retired-slide-label'}
                   onClick={() => activateSlide(8)}
               >
-                Clyde
+                serg0024
               </span>
             </li>
             <li>
@@ -112,7 +112,7 @@ function Members() {
                   className={activeSlideNumber === 9 ? 'active-slide-label' : 'retired-slide-label'}
                   onClick={() => activateSlide(9)}
               >
-                serg0024
+                Clyde
               </span>
             </li>
           </ul>
@@ -148,16 +148,6 @@ function Members() {
                 }
                 weapons={['tri', 'trin', 'ksloshing', 'slosher', 'zap85']}
                 image={'dbl'}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Slide
-                name={'Lifish'}
-                pr={'He/him'}
-                role={'Team founder + Support/Slayer'}
-                joinDate={'2020'}
-                bio={''}
-                image={'lifish'}
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -198,24 +188,6 @@ function Members() {
             </SwiperSlide>
             <SwiperSlide>
               <Slide
-                name={'Urmrrr'}
-                pr={'She/Her'}
-                title={'Baton text'}
-                twitterLink={'https://twitter.com/urmrrr'}
-                role={'Anchor'}
-                joinDate={'2021'}
-                bio={
-                  'Urmrr started playing Splatoon back in the summer of 2020. ' +
-                  'Later that January she was looking for a team to participate in a local tournament and was eventually ' +
-                  'contacted by EWfish. Ever since then she started learning a lot about the game and became a part ' +
-                  'of the Splatoon community. In real life urmrrr is also interested in art.\n'
-                }
-                image={'urmr'}
-                weapons={['heavyremix', 'chydra', 'jet']}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Slide
                 name={'Хлебушек'}
                 title={'Direct hit!'}
                 pr={'He/Him'}
@@ -228,6 +200,34 @@ function Members() {
                 }
                 weapons={['luna']}
                 image={'xleb'}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                  name={'Lifish'}
+                  pr={'He/him'}
+                  role={'Team founder + Support/Slayer'}
+                  joinDate={'2020'}
+                  bio={''}
+                  image={'lifish'}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Slide
+                  name={'Urmrrr'}
+                  pr={'She/Her'}
+                  title={'Baton text'}
+                  twitterLink={'https://twitter.com/urmrrr'}
+                  role={'Anchor'}
+                  joinDate={'2021'}
+                  bio={
+                      'Urmrr started playing Splatoon back in the summer of 2020. ' +
+                      'Later that January she was looking for a team to participate in a local tournament and was eventually ' +
+                      'contacted by EWfish. Ever since then she started learning a lot about the game and became a part ' +
+                      'of the Splatoon community. In real life urmrrr is also interested in art.\n'
+                  }
+                  image={'urmr'}
+                  weapons={['heavyremix', 'chydra', 'jet']}
               />
             </SwiperSlide>
             <SwiperSlide>
